@@ -1,0 +1,19 @@
+composer:
+  last: Hofmann
+  first: Leopold
+title: Missa solemnis
+id: ProH 11
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 clno (C), timp (C–G), vl solo, 2 vl, vla solo, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: A 103
+    rism: 600037901
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/557.html
+    license: public domain
+    principal: true
+imslp:
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
