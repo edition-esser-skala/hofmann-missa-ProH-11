@@ -146,3 +146,73 @@ KyrieBassFigures = \figuremode {
   r2 <5 4>8 <\t 3>
   r2. %82 finis
 }
+
+GloriaOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoGloria
+    \mvTr c8.\fE-\tutti c16 c( d32 e f g a h) c8 c, e g
+    c4 c, c'8 a f g
+    c4 c, c'8-! c,-! h'-! h,-!
+    a'-! a,-! g'-! g,-! f' f f f
+    f f f f e e e e %5
+    h h h c g' g, g' f
+    \mvTr e\p-\senzaOrg e e e f f f f
+    c c c c f f f f
+    fis fis fis fis g g g g
+    d d d d g g g g %10
+    g8.\f g16 c8 f, g g g, g
+    c16. c'32 c16.-\solo c32 \tuplet 3/2 8 { c16 h a g[ f e] } d16. a'32 a16. a32 \tuplet 3/2 8 { a16[ g f] e d c }
+    h8. g16 c8 e f a f g
+    c,-\tutti c c c f f f f
+    c' c c, c d d g, g %15
+    c4~ c16 d32( e f g a h) c8 c, f fis
+    g16. g,32 g'16. g32 \tuplet 3/2 8 { g16[ d c] h c d } g,8 g' g g
+    a,16. a'32 a16. a32 \tuplet 3/2 8 { a16[ c h] a h c } d,8 d d d
+    g16. g,32 g16. g32 \tuplet 3/2 8 { g16[ g' a] h a g } c8 c, c c
+    c c h c d d d d %20
+    g,16. g'32 g16. g32 \tuplet 3/2 8 { g16[ d c] h c d } g,8 g' g g
+    f! f f f e e e e
+    a,16. a'32 a16. a32 \tuplet 3/2 8 { a16[ a, h] c h a } d8 d d d
+    dis dis dis dis e e e e
+    a,4 a'8 a, d16. f32 a16. d32 h8 g %25
+    c,16. e32 g16. c32 c,8 c' g g, r4
+    g16. g'32 h16. g32 c8 c, f16. f32 f,16. f'32 g8 g,
+    c16. c'32 c16. c32 \tuplet 3/2 8 { c16[ h a] g f e } d16. a'32 a16. a32 \tuplet 3/2 8 { a16[ g f] e d c }
+    h8. g16 c8 e f a f g
+    c, a' f g c,4 r\fermata \bar "||" %30 finis
+  }
+}
+
+GloriaBassFigures = \figuremode {
+  r2. <[6]>4
+  r2. <6>8 \bo <[6 4]>16 \bc <[5 3]>
+  r1
+  r
+  <4 2>2 <6> %5
+  <6 5> \bo <[6] 4>4 \bc <[5] 3>
+  r1
+  r
+  r
+  r %10
+  <7!>2 <6 4>4 <5 3>
+  r1
+  <5>2. <6 [5]>4
+  r1
+  <6 4>4 <5 3>2 <7>4 %15
+  r2. <8 6>8 <7 5>
+  \bo <[6] 4>4 \bc <[5] 3>2.
+  <7>4 <6\\> <7 _+>2
+  <9 4>4 <8 3>2.
+  <4+ 2>4 <6>8 <3> \bo <[6] 4>4 \bc <[5] _+> %20
+  r1
+  <4 2>2 <7 _+>
+  <9 4>4 <8 3> <6->2
+  <7 _+> \bo <[6] 4>4 \bc <[5] _+>
+  r2. <6 5>8 <[7]> %25
+  r2 \bo <[6] 4>8 \bc <[5] 3>4.
+  <7>2 <6 5>4 <4>8 <3>
+  r1
+  \bo <[5]>4. \bc <[6]>8 r4 <6 [5]>
+  r <6>2. %30 finis
+}

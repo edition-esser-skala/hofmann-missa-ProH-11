@@ -145,3 +145,71 @@ KyrieAltoLyrics = \lyricmode {
   son, e -- lei --
   son. %82 finis
 }
+
+GloriaAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoGloria
+    \mvTr g'8.\fE^\tuttiE g16 g4 g8 g16 g g8 g
+    g4 g g8 a a g
+    g4 g c h
+    a g f r
+    g r8 g g8. g16 g4 %5
+    g r8 g g8. g16 g4
+    g2\p f
+    g4. g8 f4 f
+    a2 g
+    a4. a8 g4 g %10
+    g8.\f g16 g8^\critnote a g2
+    g4 r r2
+    R1
+    e8. e16 e4 f f8 f
+    f4 e d4. d8 %15
+    c d e4.( f16[ e]) d8 c
+    c4 h d d8 d
+    c4 c a'4. d,8
+    d4 d c4. g'8
+    fis4 g8 g g4( fis8.) fis16 %20
+    g4 r g g8 g
+    g4 g gis8 gis gis gis
+    e8. e16 e4 f2
+    fis e
+    e4 a8 a16 a a8 a g! g %25
+    g g g g16 g g8 g r4
+    g8 g16 g g8 g a a16 a g4
+    g r r2
+    R1
+    R\fermata \bar "||" %30 finis
+  }
+}
+
+GloriaAltoLyrics = \lyricmode {
+  Glo -- ri -- a, glo -- ri -- a in ex --
+  cel -- sis, in ex -- cel -- sis
+  De -- o, et in
+  ter -- ra pax,
+  pax ho -- mi -- ni -- bus, %5
+  pax ho -- mi -- ni -- bus
+  bo -- nae
+  vo -- lun -- ta -- tis,
+  bo -- nae
+  vo -- lun -- ta -- tis, %10
+  bo -- nae vo -- lun -- ta --
+  tis.
+
+  Gra -- ti -- as a -- gi -- mus
+  ti -- bi pro -- pter %15
+  ma -- gnam glo -- ri -- am
+  tu -- am, Do -- mi -- ne
+  De -- us, Rex coe --
+  le -- stis, De -- us
+  Pa -- ter o -- mni -- po -- %20
+  tens, Do -- mi -- ne
+  Fi -- li, Fi -- li u -- ni --
+  ge -- ni -- te, Je --
+  su Chri --
+  ste, Do -- mi -- ne De -- us, A -- gnus %25
+  De -- i, Fi -- li -- us Pa -- tris,
+  Fi -- li -- us Pa -- tris, Fi -- li -- us Pa --
+  tris. %28 finis
+}

@@ -113,3 +113,71 @@ KyrieTenoreLyrics = \lyricmode {
   son, e -- lei --
   son. %82 finis
 }
+
+GloriaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoGloria
+    \mvTr c8.\fE^\tuttiE c16 c4 c8 c16 c c8 h
+    c4 c c8 c d c16([ h)]
+    c4 c c h
+    a g f r
+    d' r8 d c8. c16 c4 %5
+    d r8 c c8. h16 h4
+    g2\p a
+    g4. c8 c4 c
+    a2 h
+    a4. d8 d4 d %10
+    d8.\f d16 c8 c c4( h)
+    c r r2
+    R1
+    c8. c16 c4 c c8 c
+    c4 c a h %15
+    c4. c8 c4 a8 a
+    g4 g h h8 h
+    a4 a a4. a8
+    a4 g g4. g8
+    a4 h8 e d4. d8 %20
+    d4 r h h8 h
+    h4 h h8 h h h
+    h8. a16 a4 r d(
+    c) c c( h)
+    a c8 c16 c d8 d d d %25
+    c c c c16 c c8 h r4
+    d8 h16 d c8 c c c16 c c8([ h)]
+    c4 r r2
+    R1
+    R\fermata \bar "||" %30 finis
+  }
+}
+
+GloriaTenoreLyrics = \lyricmode {
+  Glo -- ri -- a, glo -- ri -- a in ex --
+  cel -- sis, in ex -- cel -- sis
+  De -- o, et in
+  ter -- ra pax,
+  pax ho -- mi -- ni -- bus, %5
+  pax ho -- mi -- ni -- bus
+  bo -- nae
+  vo -- lun -- ta -- tis,
+  bo -- nae
+  vo -- lun -- ta -- tis, %10
+  bo -- nae vo -- lun -- ta --
+  tis.
+
+  Gra -- ti -- as a -- gi -- mus
+  ti -- bi pro -- pter %15
+  ma -- gnam glo -- ri -- am
+  tu -- am, Do -- mi -- ne
+  De -- us, Rex coe --
+  le -- stis, De -- us
+  Pa -- ter o -- mni -- po -- %20
+  tens, Do -- mi -- ne
+  Fi -- li, Fi -- li u -- ni --
+  ge -- ni -- te, Je --
+  su Chri --
+  ste, Do -- mi -- ne De -- us, A -- gnus %25
+  De -- i, Fi -- li -- us Pa -- tris, Fi -- li -- us
+  Pa -- tris, Fi -- li -- us Pa --
+  tris. %28 finis
+}

@@ -59,3 +59,11 @@ KyrieOboeI = {
     s2.*18 \bar "|." %82 finis
   }
 }
+
+GloriaOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGloria
+    s1*30 \bar "||" %30 finis
+  }
+}

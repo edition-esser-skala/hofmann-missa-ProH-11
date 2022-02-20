@@ -88,3 +88,40 @@ KyrieViolinoII = {
     c,4 r r\fermata \bar "|." %82 finis
   }
 }
+
+GloriaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGloria
+    <e' c'>8.\fE q16 q4 c16( d32 e f g a h) c16. e,32 d16. f32
+    e16. c32 g([ f e d]) c16. e32 g16. c32 e16 c'8 e,16 \appoggiatura g f8( e16 d)
+    e8 g32( f e d) c16. g32 e16. g32 c,16. c'32 e16. c32 g'16. g,32 h16. g32
+    c16. a32 c16. d32 e16. e,32 g16. e32 f16. a'32 a16. a32 \tuplet 3/2 8 { a16[ g f] e d c }
+    h16. g'32 g16. g32 \tuplet 3/2 8 { g16[ f e] d c h } c16. c'32 c16. c32 \tuplet 3/2 8 { c16[ h a] g f e } %5
+    d16. f32 f16. f32 f16. d32 c16. e32 c8.(\trill h32 c) h4
+    r2 f16. c'32 c16. c32 \tuplet 3/2 8 { c16[ b a] a g f }
+    e8 r r4 f16. c'32 c16. c32 \tuplet 3/2 8 { c16[ b a] g f es }
+    d8 r r4 g,16. d''32 d16. d32 \tuplet 3/2 8 { d16[ c h] h a g }
+    fis8 r r4 g16. d'32 d16. d32 \tuplet 3/2 8 { d16[ c h] h a g } %10
+    g16.\f d''32 h16. f32 \tuplet 3/2 8 { e16[ c' h] a g f e[ f g] a h c } d,8 h'
+    c,,16. c'32 c16. c32 \tuplet 3/2 8 { c16[ h a] g f e } d16. a'32 a16. a32 \tuplet 3/2 8 { a16[ g f] e d c }
+    h16. f''32 f8\trill r16. e32 c'16. g32 \tuplet 3/2 8 { a16[ g f] e d c } d4\trill
+    c16. c,32 c16. c32 \tuplet 3/2 8 { c16[ c' d] e d c } a'16. f,32 f16. f32 \tuplet 3/2 8 { f16[ a' h] c h a }
+    f16. f,32 f16. f32 e'16. e,32 e16. e32 d'16. d,32 d16. d32 \tuplet 3/2 8 { d16[ d' e] f[ e d] } %15
+    c16( d) d( e) e4. \once \slurDashed f16( e) d8 c
+    c8.(\trill h32 c) h4 g'16. g,32 g16. g32 \tuplet 3/2 8 { g16[ g' a] h[ a g] }
+    g8.(\trill fis32 g) fis4 a16. a,32 a16. a32 \tuplet 3/2 8 { a16[ g a] c h a }
+    a8.(\trill g32 a) g4 e'16. c,32 c16. c32 \tuplet 3/2 8 { c16[ c' d] e[ d c] }
+    d16. d,32 d16. d'32 g16( d) e( c) \tuplet 3/2 8 { h16[ h' a] g fis g } a,8 fis' %20
+    g,4 r h,16. h'32 h16. h32 h16. g32 g16. g32
+    g16. h32 h16. h32 h16. g32 g16. g32 gis16. gis'32 gis16. gis32 gis16. h,32 h16. h32
+    h8.(\trill a32 h) a4 b16. b'32 b16. b32 b16. b,32 b16. b32
+    a16. a'32 a16. a32 a16. a,32 a16. a32 \tuplet 3/2 8 { a16[ e' d] c h a } h,8 gis'
+    a,16( h32 c d e fis gis) a16. c32 e16. a32 f8 d, g16. h32 d16. g32 %25
+    e8 c, c''16. g32 c16. e,32 e8\trill d g,,16. g'32 h16. g32
+    f'8 d' e,16. e32 c'16. e,32 d8 c' g, h'
+    c,,16. c'32 c16. c32 \tuplet 3/2 8 { c16[ h a] g f e } d16. a'32 a16. a32 \tuplet 3/2 8 { a16[ g f] e d c }
+    h16. f''32 f8\trill r16. e32 c'16. g32 \tuplet 3/2 8 { a16[ g f] e d c } d8 h'
+    c32( h a g f e d c) d,8 h' c,4 r\fermata \bar "||" %30
+  }
+}

@@ -78,3 +78,40 @@ KyrieOboeII = {
     g r r\fermata \bar "|." %82 finis
   }
 }
+
+GloriaOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGloria
+    e'8.\fE e16 e4 c8 c16 c c8 g
+    c4 c c8 c d c16 h
+    c4 c c h
+    a g f r
+    g r8 g g8. g16 g4 %5
+    g r8 g g8. g16 g4
+    g2\p f
+    g4. g8 f4 f
+    a2 g
+    a4. a8 g4 g %10
+    g8.\f g16 g8 a g2
+    g4 r r2
+    r16. d'32 d8\trill r16. c32 c16. c32 c8 c4 h8
+    c8. e,16 e4 f f8 f
+    f4 e d d' %15
+    c8 d e4. f16 e d8 c
+    c4 h d d8 d
+    c4 c a4. d,8
+    d4 d c4. g'8
+    fis4 g8 g g4 fis8. fis16 %20
+    g4 r g g8 g
+    g4 g gis8 gis gis gis
+    e8. e16 e4 f2
+    fis e
+    e4 a8 a16 a a8 a g g %25
+    g g g g16 g g8 g r4
+    g8 g16 g g8 g a a16 a g4
+    g r r2
+    r16. d'32 d8\trill r16. c32 c16. c32 c8 c4 h8
+    c e, d4 e r\fermata \bar "||" %30 finis
+  }
+}

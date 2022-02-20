@@ -70,3 +70,35 @@ KyrieClarinoII = {
     e4 r r\fermata \bar "|." %82 finis
   }
 }
+
+GloriaClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGloria
+    c'8.\fE c16 c4 e8 e16 e e8 d
+    e4 e c8 c d g,
+    g4 e r2
+    R1
+    g4 r8 g c8. c16 c4 %5
+    d4. c8 c4 g
+    R1*4 %10
+    d'8.\fE d16 c4 c8 g16 g g8 g
+    e4 r r2
+    g8. d'16 c4 r r8 g
+    e4 c8. c16 c4 c8 c
+    c4 c r2 %15
+    c4 r r r8 c'
+    c4 g8. g16 g4 r
+    R1
+    r2 c
+    d4. e8 d4 d8. d16 %20
+    d4 r r2
+    R1*3
+    r4 c8 c16 c d8 d d d %25
+    c c c c16 c c8 g r4
+    d' c r g
+    e r r2
+    R1
+    R\fermata \bar "||" %30 finis
+  }
+}
