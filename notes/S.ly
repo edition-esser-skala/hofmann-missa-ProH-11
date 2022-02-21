@@ -252,13 +252,185 @@ QuiTollisSopranoLyrics = \lyricmode {
   no -- bis. %50 finis
 }
 
-% Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
-% tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
-% Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.
-%
-%
-% ## Credo
-%
+QuoniamSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoQuoniam
+      \set Score.currentBarNumber = #53
+    \mvTr e'4.\fE^\tuttiE e8 e4
+    e f d
+    e e r %55
+    e f d
+    e4. e8 e4
+    e e e8 e
+    d4. d8 d4
+    c2( h4) %60
+    a a2
+    g4 r r
+    R2.*20 %82
+    g4 g g
+    c2 c4
+    h r g %85
+    e'2 e4
+    d r g
+    g fis8 e d c
+    h4 g r
+    r8 c16[ d] e8[ c e fis] %90
+    g4 g,4. a16[ h]
+    c2 cis4
+    d8[ a d c] h4
+    a2.
+    g8 g16[ a] h8[ g h d] %95
+    e2.
+    d
+    c
+    h4 r r
+    R2. %100
+    g4 g g
+    c2 c4
+    h r g
+    e'2 e4
+    d r g %105
+    g fis8 e d c
+    h4 g h
+    c r r
+    r8 f,16[ g] a8[ f a h]
+    c4 c, c'~ %110
+    c a f'~
+    f e2
+    d2.
+    e4. d8 c4
+    d g,8[ a] h[ a16 h] %115
+    c2 cis4
+    d8[ a d c] h4
+    c d2~
+    d8[ c h a] gis4
+    a r r %120
+    R2.
+    c4^\critnote c c
+    d2 d4
+    e r r
+    R2. %125
+    a,4 a a
+    f'2 f4
+    g,2 g4
+    e'2 e4
+    f, f f %130
+    d'2.
+    e,
+    R
+    g4 g g
+    c2 c4 %135
+    a2 c8([ d)]
+    e4 c8 h a g
+    f8.[ g16] a8[ f a h]
+    c4 c, e'
+    e d8 c h a %140
+    h4 g r
+    R2.
+    r4 r g'
+    g f8 e d c
+    h4 g d'~ %145
+    d8[ e c h] c4~
+    c h8[ a] h4
+    c g c8. c16
+    a4 d h
+    e c f~ %150
+    f8[ e d f] e4
+    d d2
+    c4 r d
+    e r d
+    c r r\fermata \bar "|." %155
+  }
+}
+
+QuoniamSopranoLyrics = \lyricmode {
+  Quo -- ni -- am %53
+  tu so -- lus
+  san -- ctus, %55
+  tu so -- lus
+  Do -- mi -- nus,
+  tu so -- lus al --
+  tis -- si -- mus,
+  Je -- %60
+  su Chri --
+  ste.
+
+  Cum San -- cto %83
+  Spi -- ri --
+  tu in %85
+  glo -- ri --
+  a, in
+  glo -- ri -- a De -- i
+  Pa -- tris,
+  a -- _ %90
+  _ _ _
+  _ _
+  _ _
+  _
+  men, a -- _ %95
+  _
+  _
+  _
+  men,
+  %100
+  cum San -- cto
+  Spi -- ri --
+  tu in
+  glo -- ri --
+  a, in %105
+  glo -- ri -- a De -- i
+  Pa -- tris, a --
+  men,
+  a -- _
+  _ men, a -- %110
+  men, a --
+  _
+  _
+  _ _ _
+  men, a -- _ %115
+  _ _
+  _ _
+  _ _
+  _
+  men, %120
+
+  cum San -- cto
+  Spi -- ri --
+  tu,
+  %125
+  cum San -- cto
+  Spi -- ri --
+  tu in
+  glo -- ri --
+  a De -- i %130
+  Pa --
+  tris,
+
+  cum San -- cto
+  Spi -- ri -- %135
+  tu in
+  glo -- ri -- a De -- i
+  Pa -- _
+  _ tris, in
+  glo -- ri -- a De -- i %140
+  Pa -- tris,
+
+  in
+  glo -- ri -- a De -- i
+  Pa -- tris, a -- %145
+  _
+  _ _
+  men, in glo -- ri --
+  a De -- i
+  Pa -- tris, a -- %150
+  _
+  men, a --
+  men, a --
+  men, a --
+  men. %155 finis
+}
+
 % Cre -- do in u -- num De -- um,
 % Pa -- trem o -- mni -- po -- ten -- tem,
 % fa -- cto -- rem coe -- li et ter -- rae,
@@ -325,15 +497,3 @@ QuiTollisSopranoLyrics = \lyricmode {
 % Mi -- se -- re -- re no -- bis.
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
 % Do -- na no -- bis pa -- cem.
-
-QuoniamSoprano = {
-  \relative c' {
-    \clef treble
-    \key c \major \time 3/4 \autoBeamOff \tempoQuoniam
-      \set Score.currentBarNumber = #53
-  }
-}
-
-QuoniamSopranoLyrics = \lyricmode {
-
-}

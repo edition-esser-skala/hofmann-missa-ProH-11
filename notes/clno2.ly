@@ -108,5 +108,81 @@ QuoniamClarinoII = {
     \clef treble
     \key c \major \time 3/4 \tempoQuoniam
       \set Score.currentBarNumber = #53
+    c'4.\fE c8 c4
+    c d g,
+    c c r %55
+    c d g,
+    c4. c8 c4
+    c c c
+    g2.
+    r4 r d' %60
+    e d4. d8
+    d4 r r
+    R2.*14 %76
+    c,4 r r
+    R2.
+    c'4 r r
+    R2. %80
+    g4 r r
+    r g2
+    c4 r r
+    R2.
+    g4 r r %85
+    c2 c4
+    d r r
+    r d2
+    d4 r r
+    c2 c4 %90
+    g r r
+    R2.*2
+    r4 r d'
+    d r r %95
+    c2 r4
+    R2.*2
+    d2.
+    e4 d2 %100
+    d4 r r
+    c2 c4
+    g r r
+    c2.
+    d4 r r %105
+    r d2
+    d4 g,2
+    c4 r r
+    R2.
+    c4 r r %110
+    r r d~
+    d c2
+    g r4
+    R2.
+    g4 r r %115
+    R2.*9 %124
+    r4 e e8 e %125
+    e2 r4
+    R2.
+    g2 g4
+    g2_\critnote r4
+    R2.*4 %133
+    g4 g g
+    c2 r4 %135
+    R2.
+    c,4 c c
+    c2 c4
+    c r r
+    R2. %140
+    r4 r c'
+    d d2
+    c4 r r
+    R2.
+    g2 d'4~ %145
+    d g, \once \tieDashed c~
+    c g g8 g
+    e4 r r
+    R2.*2 %150
+    r4 r c'~
+    c g4. g8
+    e4 r g
+    c r g
+    e r r\fermata \bar "|." %155 finis
   }
 }

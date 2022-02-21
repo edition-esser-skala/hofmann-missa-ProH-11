@@ -240,9 +240,196 @@ QuoniamTenore = {
     \clef "treble_8"
     \key c \major \time 3/4 \autoBeamOff \tempoQuoniam
       \set Score.currentBarNumber = #53
+    \mvTr c4.\fE^\tuttiE c8 c4
+    e d h
+    c c r %55
+    e d h
+    c4. c8 c4
+    c c c8 c
+    c4. c8 h4
+    e d2 %60
+    e4( d2)
+    d4 r r
+    R2.*7 %69
+    g,4 g g %70
+    c2 c4
+    h r g
+    e'2 e4
+    d r g
+    g fis8 e d c %75
+    h4 g h
+    c r r
+    r8 f,16[ g] a8[ f a h]
+    c4 c, r
+    r8 f16[ g] a4 h8[ c] %80
+    d4 h c
+    d2.
+    c2 c8([ h]
+    a2.)
+    g4 r8 g[ a h] %85
+    c[ e16 d] c8[ h a g]
+    fis4 d' e
+    c d2
+    g,4 h8[ c h a]
+    g2.~ %90
+    g8[ a h c d h]
+    g2.
+    a4 r h
+    c2 d4
+    d r r %95
+    c2.~
+    c4 h2~
+    h4 a2
+    g4 h2
+    a4 a2 %100
+    g4 r r
+    R2.
+    g4 g g
+    c2 c4
+    c2 h4 %105
+    e d8 c h a
+    g4 h d
+    e r r
+    R2.*4 %112
+    g,4 g g
+    c2 c4
+    h r g %115
+    e'2 e4
+    d r g
+    g fis8 e d c
+    h4 g e'8[( d]
+    c[ h)] a4 \once \tieDashed a~ %120
+    a h gis
+    a r a~
+    a d8[ c h a]
+    h4 e, c'8[ d]
+    \once \tieDashed e2.~ %125
+    e8[ d] c4 r
+    r8 d16[ e] f8[ e d c]
+    h4 g d'~
+    d8[ c16 d] e8[ d c h]
+    a4 f c'~ %130
+    c8[ h16 c] d8[ c h a]
+    g4 e h'~
+    h a h8[ c]
+    d[ c] h4. a8
+    g4 r r %135
+    r8 f16([ g] a8[ f a h)]
+    c4 r r
+    r8 a16[ h] c8[ a c d]
+    e4 e, g
+    c2. %140
+    d4 h e
+    d2.
+    c2 c8[ h]
+    a2 d4
+    d2 h4 %145
+    e2.
+    d
+    c4 r r8 c~
+    c a4 d h8~
+    h e4 c a8~ %150
+    a[ h16 c] d4 c~
+    c c( h)
+    c r h
+    c r h
+    c r r\fermata \bar "|." %155 finis
   }
 }
 
 QuoniamTenoreLyrics = \lyricmode {
+  Quo -- ni -- am %53
+  tu so -- lus
+  san -- ctus, %55
+  tu so -- lus
+  Do -- mi -- nus,
+  tu so -- lus al --
+  tis -- si -- mus,
+  Je -- %60
+  su Chri --
+  ste.
 
+  Cum San -- cto %70
+  Spi -- ri --
+  tu in
+  glo -- ri --
+  a, in
+  glo -- ri -- a De -- i %75
+  Pa -- tris, a --
+  men,
+  a -- _
+  _ men,
+  a -- _ _ %80
+  _ _ _
+  _
+  men, a --
+
+  men, a -- %85
+  _ _
+  _ _ _
+  _ _
+  men, a --
+  _ %90
+
+  _
+  men, a --
+  _ _
+  men, %95
+  a --
+  _
+  _
+  men, a --
+  men, a -- %100
+  men,
+
+  cum San -- cto
+  Spi -- ri --
+  tu in %105
+  glo -- ri -- a De -- i
+  Pa -- tris, a --
+  men,
+
+  cum San -- cto %113
+  Spi -- ri --
+  tu in %115
+  glo -- ri --
+  a, in
+  glo -- ri -- a De -- i
+  Pa -- tris, a --
+  men, a -- %120
+  _ _
+  men, a --
+  _
+  _ men, a --
+  _ %125
+  men,
+  a -- _
+  _ men, a --
+  _
+  _ men, a -- %130
+  _
+  _ men, a --
+  _ _
+  _ _ _
+  men, %135
+  a --
+  men,
+  a -- _
+  _ men, a --
+  _ %140
+  _ _ _
+  _
+  men, a --
+  _ _
+  men, a -- %145
+  _
+  _
+  men, in __
+  glo -- ri -- a __
+  De -- i Pa -- %150
+  _ tris, __
+  a --
+  men, a --
+  men, a --
+  men. %155 finis
 }

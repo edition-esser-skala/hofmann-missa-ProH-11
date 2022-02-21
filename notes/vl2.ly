@@ -162,5 +162,108 @@ QuoniamViolinoII = {
     \clef treble
     \key c \major \time 3/4 \tempoQuoniam
       \set Score.currentBarNumber = #53
+    e'4.\fE e8 e4
+    e f d
+    e e r %55
+    e f d
+    e4. e8 e4
+    g, g a8 a
+    a4. a8 g4
+    g a g~ %60
+    g g fis
+    g8 \once \slurDashed g,16( a) \parOn h8-\parenthesize-! c-! d-! e-!
+    f!-! g-! a-! h-! c-! \parOff d-\parenthesize-!
+    e-! c,-! c'8.(\trill h32 c) e8-! c-!
+    a'-! a,-! a'8.(\trill g32 a) c8-! a-! %65
+    g-! g,-! g'8.(\trill f32 g) c8-! e,-!
+    f-! f,-! f'8.(\trill e32 f) a8-! f-!
+    e-! e,-! g'8.(\trill f32 g) c8-! e,-!
+    d-! d,-! f'8.(\trill e32 f) g8-! g,-!
+    c-! c,-! c'8.(\trill h32 c) g'8-! g,-! %70
+    e'-! e,-! e'8.(\trill d32 e) c'8-! e,-!
+    d-! d,-! d'8.(\trill c32 d) g8-! h,-!-\critnote
+    c-! c,-! e'8.(\trill d32 e) c'8-! e,-!
+    a-! a,-! fis'8.(\trill e32 fis) g8-! g,-!
+    e-! e'-! d8.(\trill cis32 d) a'8-! fis-! %75
+    g-! g,-! h8.(\trill a32 h) g'8-! h,-!
+    c-! c,-! c'8.(\trill h32 c) g'8-! e,-!-\critnote
+    f'-! d,-! f'8.(\trill e32 f) d'8-! f,-!
+    e-! c,-! c'8.(\trill h32 c) g'8-! g,-!
+    a'-! a,-! a'8.(\trill g32 a) f8-! f,-! %80
+    g'-! g,-! h'8.(\trill a32 h) c8-! c,-!
+    a'-! a,-! h8.(\trill a32 h) g'8-! h,-!
+    c-! c,-! e'8.(\trill d32 e) g8-! g,-!
+    c-! c,-! c'8.(\trill h32 c) a'8-! c,-!
+    h-! g,-! h'8.(\trill a32 h) g'8-! g,-! %85
+    e'-! e,-! e'8.(\trill d32 e) c'8-! e,-!
+    d-! d,-! fis'8.(\trill e32 fis) g8-! g,-!
+    e'-! e,-! fis'8.(\trill e32 fis) a8-! c,-!
+    h-! g,-! h'8.(\trill a32 h) g'8-! g,-!
+    e'-! e,-! e'8.(\trill d32 e) c'8-! c,-! %90
+    d-! d,-! d'8.(\trill c32 d) g8-! g,-!
+    c-! c,-! c'8.(\trill h32 c) g'8-! cis,-!
+    d-! d,-! fis'8.(\trill e32 fis) g8-! g,-!
+    a'-! a,-! c8.(\trill h32 c) a'8-! fis-!
+    g-! g,-! g'8.(\trill fis32 g) d'8-! d,-! %95
+    e-! c,-! e'8.(\trill d32 e) c'8-! e,-!
+    d-! h,-! d'8.(\trill c32 d) h'8-!^\critnote d,-!
+    c-! a,-! c'8.(\trill h32 c) a'8-! c,-!
+    h-! g,-! h'8.(\trill a32 h) g'8-! g,-!
+    a'-! a,-! a'8.(\trill g32 a) d8-! d,-! %100
+    h'-! h,-! g'8.(\trill fis32 g) h,8-! g'-!
+    e-! c,-! c'8.(\trill h32 c) c'8-! c,-!
+    h-! g,-! h'8.(\trill a32 h) g'8-! g,-!
+    e'-! e,-! e'8.(\trill d32 e) c'8-! e,-!
+    d-! d,-! fis'8.(\trill e32 fis) g8-! g,-! %105
+    g'-! a,-! fis'8.(\trill e32 fis) a8-! c,-!
+    h-! g,-! h'8.(\trill a32 h) g'8-! h,-!
+    c-! c,-! c'8.(\trill h32 c) g'8-! e,-!
+    f'-! d,-! f'8.(\trill e32 f) d'8-! f,-!
+    e-! c,-! c'8.(\trill h32 c) g'8-! g,-! %110
+    a'-! a,-! a'8.(\trill g32 a) f8-! f,-!
+    d'-! d,-! e'8.(\trill d32 e) c'8-! e,-!
+    d-! d,-! d'8.(\trill c32 d) g8-! h,-!
+    c-! c,-! c'8.(\trill h32 c) c'8-! fis,-!
+    g-! g,-! g'8.(\trill fis32 g) d8-! d,-! %115
+    c'-! c,-! c'8.(\trill h32 c) g'8-! cis,-!
+    d-! d,-! fis'8.(\trill e32 fis) g8-! g,-!
+    a'-! a,-! a'8.(\trill g32 a) d8-! d,-!
+    g-! g,-! d'8.(\trill c32 d) h'8-! h,-!
+    a'-! a,-! c8.(\trill h32 c) a'8-! a,-! %120
+    f'-! f,-! f'8.(\trill e32 f) d'8-! f,-!
+    e-! c,-! e'8.(\trill d32 e) c'8-! e,-!
+    d-! d,-! d'8.(\trill c32 d) a'8-! d,-!
+    gis-! e,-! gis'8.(\trill fis32 gis) a8-! a,-!
+    e'-! e,-! e'8.(\trill dis32 e) h'8-! h,-! %125
+    a'-! a,-! e'8.(\trill d32 e) a8-! a,-!
+    f'-! d,-! f'8.(\trill e32 f) a8-! a,-!
+    g'-! g,-! d'8.(\trill c32 d) g8-! g,-!
+    e'-! c,-! c'8.(\trill h32 c) g'8-! g,-!
+    f'-! f,-! c'8.(\trill h32 c) f8-! f,-! %130
+    d'-! d,-! d'8.(\trill c32 d) f8-! f,-!
+    e'-! e,-! h'8.(\trill a32 h) e8-! e,-!
+    c'-! c,-! c'8.(\trill h32 c) f8-! f,-!
+    d'-! d,-! d'8.(\trill c32 d) g8-! g,-!
+    c-! c,-! c'8.(\trill h32 c) e8-! e,-! %135
+    a'-! a,-! a'8.(\trill g32 a) f8-! f,-!
+    e'-! e,-! c'8.(\trill h32 c) e8-! e,-!
+    a'-! a,-! a'8.(\trill g32 a) c8-! a-!
+    g-! g,-! g'8.(\trill f32 g) c8-! c,-!
+    a'-! a,-! c8.(\trill h32 c) a'8-! a,-! %140
+    h-! g,-! h'8.(\trill a32 h) e8-! e,-!
+    a'-! a,-! d8.(\trill c32 d) g8-! h,-!
+    c-! c,-! c'8.(\trill h32 c) g'8-! c,-!
+    a'-! a,-! f'8.(\trill e32 f) a8-! c,-!
+    h-! g,-! d''8.(\trill c32 d) g8-! g,-! %145
+    e'-! e,-! e'8.(\trill d32 e) c'8-! e,-!
+    c'-! d,-! d8.(\trill c32 d) h'8-! d,-!
+    c-! c,-! g'-! g,-! c'-! c,-!
+    a'-! a,-! d'-! d,-! h'-! h,-!
+    e'-! e,-! c'-! c,-! a''-! a,-! %150
+    f'-! f,-! d'-! d,-! e'-! e,-!
+    d'-! c'-! d,8.(\trill c32 d) h'8-! d,-!
+    c-! c,-! c'8.(\trill h32 c) g'8-! g,-!
+    e'-! \tuplet 3/2 8 { g16 a h } c8-! e,-! d-! h'-!
+    c,4 r r\fermata \bar "|." %155 finis
   }
 }

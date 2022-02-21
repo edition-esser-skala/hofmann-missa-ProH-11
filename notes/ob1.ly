@@ -103,5 +103,89 @@ QuoniamOboeI = {
     \clef treble
     \key c \major \time 3/4 \tempoQuoniam
       \set Score.currentBarNumber = #53
+    e'4.\fE e8 e4
+    e f d
+    e e r %55
+    e f d
+    e4. e8 e4
+    e e e8 e
+    d4. d8 d4
+    c2 h4 %60
+    a a2
+    g4 r r
+    R2.*20 %82
+    g4 g g
+    c2 c4
+    h r g %85
+    e'2 e4
+    d r g
+    g fis8 e d c
+    h4 g r
+    r8 c16 d e8 c e fis %90
+    g4 g,4. a16 h
+    c2 cis4
+    d8 a d c h4
+    a2.
+    g8 g16 a h8 g h d %95
+    e2.
+    d
+    c
+    h4 r r
+    R2. %100
+    g4 g g
+    c2 c4
+    h r g
+    e'2 e4
+    d r g %105
+    g fis8 e d c
+    h4 g h
+    c r r
+    r8 f,16 g a8 f a h
+    c4 r \once \tieDashed c~ %110
+    c a \once \tieDashed f'~
+    f e2
+    d2.
+    e4. d8 c4
+    d g,8 a h a16 h %115
+    c2 cis4
+    d8 a d c h4
+    c d2~
+    d8 c h a gis4
+    a r r %120
+    R2.
+    c4 c c
+    d2 d4
+    e r r
+    R2. %125
+    a,4 a a
+    f'2 f4
+    g,2 g4
+    e'2 e4
+    f, f f %130
+    d'2.
+    e,-\critnote
+    R
+    g4 g g
+    c2 c4 %135
+    a2 c8 d
+    e4 c8 h a g
+    f8. g16 a8 f a h
+    c4 r e~
+    e d8 c h a %140
+    h4 g r
+    R2.
+    r4 r g'~
+    g f8 e d c
+    h4 g d'~ %145
+    d8 e c h c4~
+    c h8 a h4
+    c g c8. c16
+    a4 d h
+    e c f~ %150
+    f8 e d f e4
+    d d2
+    c4 r d
+    e r d
+    c r r\fermata \bar "|." %155
   }
 }

@@ -277,9 +277,210 @@ QuoniamOrgano = {
     \clef bass
     \key c \major \time 3/4 \tempoQuoniam
       \set Score.currentBarNumber = #53
+    \mvTr c'4.\fE-\tuttiE c8 c4
+    c f, g
+    c c,8 d16 e f g a h %55
+    c4 f, g
+    c c,8 d16 e f g a h
+    c8 c, c' h a g
+    fis a16 g fis8 d g fis
+    e d16 e fis8 e16 fis g8 g, %60
+    c h16 c d8 c d d,
+    g4 g8-! a-! h-! c-!
+    d-! e-! f!-! g-! a-! h-!
+    c,4-! c-! c-!
+    f2-! f4-! %65
+    e-! r c-!
+    a'2-! a4-!
+    g-! r c-!
+    c-! h8-! a-! g-! f-!
+    << {
+      g4 g g %70
+      c2 c4
+      h r g
+      e'2 e4
+      d r \mvTr g^\critnote
+      g fis8 e d c %75
+      h4 g h
+    } \\ {
+      e, c r %70
+      r8 c16 d e8 c e fis
+      g4 g, r
+      r8 c c' h a g
+      fis4 d e
+      c d2 %75
+      g,4 r8 g'16 a g8 f
+    } >>
+    e d c d e c
+    d2 d4
+    c r8 c d e
+    f a16 g f8 e d c %80
+    h4 g' a
+    f g2
+    c,4 r \clef "treble_8" c'8 h
+    a2 a4
+    g r8 g a h %85
+    c e16 d c8 h a g
+    fis4 d' e
+    c d2
+    \clef bass g,,4 g g
+    c2 c4 %90
+    h r g
+    e'2 e4
+    d r g
+    g fis8 e d c
+    h4 g r %95
+    r8 c16 d e8 c e fis
+    g h16 a gis8 e fis gis
+    a g16 a fis8 d e fis
+    g h16 a g8 fis e d
+    c h16 c d4 d, %100
+    g r r
+    r8 c16 d e8 c e fis
+    g4 g, r
+    r8 c c' h a g
+    fis4 d e %105
+    c d2
+    g,4 r8 g'16 a g8 f!
+    e d c d e c
+    d2.
+    c4 r8 c d e %110
+    f a16 g f8 e d c
+    h g c d e f
+    g4. f8 e d
+    c h a2
+    g4 r \clef "treble_8" g' %115
+    e'2 e4
+    d r g
+    g fis8 e d c
+    h4 g e'8 d
+    \clef bass a,4 a a %120
+    d2 d4
+    c r a
+    f'2 f4
+    e r a
+    a gis8 fis e d %125
+    c h a4 r
+    d d d
+    h'2 h4
+    c,2 c4
+    a'2 a4 %130
+    h,2 h4
+    g'2 g4
+    a, f'8 e d c
+    h4 g g'8 f
+    e d c4 r %135
+    \clef "treble_8" r8 f16 g a8 f a h
+    \clef bass c,4 c c
+    f2 f4
+    e r c
+    a'2 a4 %140
+    g r c
+    c h8 a g f
+    e4 c e
+    f2 fis4
+    g2.~ %145
+    g~
+    g
+    c,4 r c8-! c'-!
+    f,,-! f'-! d-! d'-! g,,-! g'-!
+    e-! e'-! a,,-! a'-! f,-! f'-! %150
+    d-! d'-! h,-! h'-! c,-! c'-!
+    f,4 g g,
+    c r g'
+    c r g
+    c, r r\fermata \bar "|." %155 finis
   }
 }
 
 QuoniamBassFigures = \figuremode {
-
+  r2. %53
+  r4 <6>2
+  r2. %55
+  r4 <6>2
+  r2.
+  r
+  <6 5>
+  <6>4 <6 5>2 %60
+  <6 5>4 <4> <_+>
+  r2.*15 %76
+  <6>2.
+  <10>2 <5>8 <6>
+  <10>2.
+  q2 <6>4 %80
+  <6>2.
+  <6 5>
+  r2.
+  r2 <5>8 <6\\>
+  <10>2. %85
+  q2 <6\\>4
+  <6> <_+>2
+  <6 [5]>4 <_+>2
+  r2.
+  r2 <3>8 <4+> %90
+  <6>2.
+  <6>2 <6\\>4
+  <_+>2.
+  <4 2>4 <\t \t> <_+>
+  <6>2. %95
+  r
+  <5 4>4 <6 5>2
+  <9>4 <[6 5]>2
+  r2.
+  <6 5>4 <4> <_+> %100
+  r2.
+  r
+  r
+  r
+  <6 5>4 <\t \t> <3> %105
+  <6 5> <_+>2
+  r2.
+  <6>
+  <5>2 r8 <6>
+  r2. %110
+  r
+  <6 5>
+  <5 4>4 <\t 3>2
+  r4 <5>4. <6\\>8
+  r2. %115
+  <6>2 <6\\>4
+  <_+>2 <3>4
+  <2> <6> <[_+]>
+  <6>2 <_+>4
+  r2. %120
+  <5>4 <6> <4+ 3>
+  <6>2.
+  <6>
+  <_+>
+  r4 \bo <[6]> \bc <[_+]> %125
+  <6>2.
+  r
+  <6>
+  \bo <[9]>4 \bc <[8]>2
+  <6>2. %130
+  \bo <[9]>4 \bc <[8]>2
+  <6>2.
+  <9>4 <3> \bo <[6]>
+  \bc q2.
+  <6> %135
+  r
+  r
+  r2 \bo <[5 3]>8 \bc <[6 4]>
+  <6>2.
+  r2 <7>8 <6\\> %140
+  r2.
+  <4! 2>4 <6>2
+  <6>2.
+  <9>4 <8>8 <7> <6> <5>
+  r2. %145
+  <6 5>4 <\t 4>2
+  <5 \t>4 <\t 3>2
+  r2.
+  r
+  r %150
+  r4 <[6 5]>2
+  <6 5>4 <4> <3>
+  r2.
+  r
+  r %155 finis
 }
