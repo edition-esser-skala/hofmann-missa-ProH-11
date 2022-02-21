@@ -213,3 +213,68 @@ GloriaAltoLyrics = \lyricmode {
   Fi -- li -- us Pa -- tris, Fi -- li -- us Pa --
   tris. %28 finis
 }
+
+QuiTollisAlto = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #31
+    \mvTrh es2\fp^\tuttiE f\fp
+    g4.\f g8\p f2\fp
+    es\fp es4\f d\p
+    g2\fp f\fp
+    f\fp es\fp %35
+    es4\f( d\p) es\f r
+    R1
+    g2\fp g\fp
+    f4.\f f8\p fis4.\f fis8\p
+    fis4\f fis\p g8.\f g16 g4\p %40
+    g\f f\p f\f es\p
+    es\f d\p d2\fp
+    e\fp d\fp
+    d4\f r r2
+    g\fp g\fp %45
+    f4\f f\p f\f f8\p f
+    es4\f es\p d4.\f d8\p
+    c4\f c\p c4.\f c8\p
+    d2\fp es\fp
+    es4(\f d)\p c\f r %50
+    R1
+    R\fermata \bar "||" %52 finis
+  }
+}
+
+QuiTollisAltoLyrics = \lyricmode {
+  Qui tol -- %31
+  lis pec -- ca --
+  ta mun -- di:
+  Mi -- se --
+  re -- re %35
+  no -- bis.
+
+  Qui tol --
+  lis pec -- ca -- ta
+  mun -- di: Su -- sci -- pe %40
+  de -- pre -- ca -- ti --
+  o -- nem no --
+  _ _
+  stram.
+  Qui se -- %45
+  des ad dex -- te -- ram
+  Pa -- tris: Mi -- se --
+  re -- re, mi -- se --
+  re -- re
+  no -- bis. %50 finis
+}
+
+QuoniamAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoQuoniam
+      \set Score.currentBarNumber = #53
+  }
+}
+
+QuoniamAltoLyrics = \lyricmode {
+
+}

@@ -8,7 +8,9 @@
 
 tempoKyrie = \tempoMarkup "Grave"
   tempoKyrieB = \tempoMarkup "Allegro"
+
 tempoGloria = \tempoMarkup "Allegro"
+tempoQuiTollis = \tempoMarkup "Adagio"
 
 
 \include "notes/ob1.ly"

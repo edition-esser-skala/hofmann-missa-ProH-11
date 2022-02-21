@@ -115,3 +115,41 @@ GloriaOboeII = {
     c e, d4 e r\fermata \bar "||" %30 finis
   }
 }
+
+QuiTollisOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #31
+    c'2\fE h
+    c4. c8 des2
+    c c4 h
+    b2 a!
+    as g %35
+    g4 f es r
+    R1
+    b'2 b
+    as4. as8 a4 a
+    a a b8. b16 b4 %40
+    es es d d
+    c c b2~
+    \once \tieDashed b~ b4 a
+    g r r2
+    b b %45
+    as4 as as as8 as
+    g4 g f4. f8
+    es4 es as4. as8
+    h2 c
+    c4 h c r %50
+    R1
+    R\fermata \bar "||" %52 finis
+  }
+}
+
+QuoniamOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoQuoniam
+      \set Score.currentBarNumber = #53
+  }
+}

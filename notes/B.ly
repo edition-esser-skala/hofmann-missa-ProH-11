@@ -183,3 +183,49 @@ GloriaBassoLyrics = \lyricmode {
   Pa -- tris, Fi -- li -- us Pa --
   tris. %28 finis
 }
+
+QuiTollisBasso = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #31
+    \mvTrh c2\fp^\tuttiE d\fp
+    es4.\f es8\p f2\fp
+    fis\fp g4\f g,\p
+    e'2\fp f\fp
+    d(\fp es4)\f a,!\p %35
+    b2\fp es4\f r
+    R1
+    es2\fp e\fp
+    f4.\f f8\p es4\f es\p
+    d\f d\p g8.\f g16 g4\p %40
+    c\f f,\p b\f es,\p
+    a\f d,\p g2\fp
+    cis,\fp d\fp
+    g,4\f r r2
+    g'2\fp e\fp %45
+    f4\f f\p d\f d8\p d
+    es4\f es\p h4.\f h8\p
+    c4\f c\p f4.\f f8\p
+    f2\fp fis\fp
+    g4(\f g,)\p c\f r %50
+    R1
+    R\fermata \bar "||" %52 finis
+  }
+}
+
+QuiTollisBassoLyrics = \lyricmode {
+
+}
+
+QuoniamBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \autoBeamOff \tempoQuoniam
+      \set Score.currentBarNumber = #53
+  }
+}
+
+QuoniamBassoLyrics = \lyricmode {
+
+}

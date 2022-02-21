@@ -125,3 +125,41 @@ GloriaViolinoI = {
     c32( h a g f e d c) d,8 h' c,4 r\fermata \bar "||" %30
   }
 }
+
+QuiTollisViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #31
+    c'16.\f c'32 c8 r16 c,(-.\p c-. c-.) h16.\f as'32 as8 r16 h,(-.\p h-. h-.)
+    c16.\f c'32 c8 r16 c,(-.\p c-. c-.) des16.\f as'32 as8 r16 des,(-.\p des-. des-.)
+    c16.\f c'32 c8 r16 es,(-.\p es-. es-.) es16.\f c'32 c8 r16 d,(-.\p d-. d-.)
+    des16.\f b'32 b8 r16 des,(-.\p des-. des-.) c16.\f a'!32 a8 r16 a,(-.\p a-. a-.)
+    as16.\f as'32 as8 r16 as,(-.\p as-. as-.) g16.\f g'32 g8 r16 g,(-.\p g-. g-.) %35
+    g16.\f g'32 g8 r16 f,(-.\p f-. f-.) es16.\f g'32 g8 r16. g32 g8
+    r16. g32 g16. g,32 g8 f b'32(\ff g) g( es) es([ b) b( g)] g8 f\trill
+    es16.\f es'32 es8 r16 b(-.\p b-. b-.) b16.\f b'32 b8 r16 b,(-.\p b-. b-.)
+    as16.\f as'32 as8 r16 as,(-.\p as-. as-.) a16.\f a'32 a8 r16 a,(-.\p a-. a-.)
+    a16.\f a'32 a8 r16 a,(-.\p a-. a-.) b16.\f b'32 b8 r16 b,(-.\p b-. b-.) %40
+    es16.\f c,32 c8 r16 es'(-.\p es-. es-.) d16.\f b,32 b8 r16 d'(-.\p d-. d-.)
+    c16.\f a,32 a8 r16 c'(-.\p c-. c-.) b16.\f g'32 g8 r16 b,(-.\p b-. b-.)
+    b16.\f b'32 b8 r16 b,(-.\p b-. b-.) b16.\f g'32 g8 r16 a,!(-.\p a-. a-.)
+    g16.\f g'32 g8 r16. g32 g8 r16. b32 b16. b,32 b8 a\trill
+    g16. b'32 b8 r16 b,(-.\p b-. b-.) b16.\f b'32 b8 r16 b,(-.\p b-. b-.) %45
+    as16.\f as'32 as8 r16 as,(-.\p as-. as-.) as16.\f as'32 as8 r16 as,(-.\p as-. as-.)
+    g16.\f g'32 g8 r16 g,(-.\p g-. g-.) f16.\f f'32 f8 r16 f,(-.\p f-. f-.)
+    es16.\f es'32 es8 r16 es(-.\p es-. es-.) as,16.\f as'32 as8 r16 as,(-.\p as-. as-.)
+    h16.\f h'32 h8 r16 h,(-.\p h-. h-.) c16.\f c'32 c8 r16 es,(-.\p es-. es-.)
+    es16.\f c'32 c8 r16 d,(-.\p d-. d-.) c16.\f es32 es8 r16. es32 es8 %50
+    r16. c'32 c16. es,32 es8 d\trill g32(\ff es) es( c) c([ g) g( es)] es8 d\trill
+    c4 r r2\fermata \bar "||" %52 finis
+  }
+}
+
+QuoniamViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoQuoniam
+      \set Score.currentBarNumber = #53
+  }
+}

@@ -15,3 +15,19 @@ GloriaViola = {
     
   }
 }
+
+QuiTollisViola = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #31
+  }
+}
+
+QuoniamViola = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoQuoniam
+      \set Score.currentBarNumber = #53
+  }
+}

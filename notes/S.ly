@@ -199,15 +199,59 @@ GloriaSopranoLyrics = \lyricmode {
   tris. %28 finis
 }
 
-% Lau -- da -- mus te, be -- ne -- di -- ci -- mus te,
-% ad -- o -- ra -- mus te, glo -- ri -- fi -- ca -- mus te.
+QuiTollisSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #31
+    \mvTr \mvTrh c'2\fp^\tuttiE h\fp
+    c4.\f c8\p des2\fp
+    c\fp c4\f h\p
+    b2\fp a!\fp
+    as\fp g\fp %35
+    g4(\f f)\p es\f r
+    R1
+    b'2\fp b\fp
+    as4.\f as8\p a4\f a\p
+    a\f a\p b8.\f b16 b4\p %40
+    es\f es\p d\f d\p
+    c\f c\p b2~\fp
+    \once \tieDashed b~\fp b4\f a4\p
+    g\f r r2
+    b2\fp b\fp %45
+    as4\f as\p as\f as8\p as
+    g4\f g\p f4.\f f8\p
+    es4\f es\p as4.\f as8\p
+    h2\fp c\fp
+    c4(\f h)\p c\f r %50
+    R1
+    R\fermata \bar "||" %52 finis
+  }
+}
 
-% Qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% Qui tol -- lis pec -- ca -- ta mun -- di:
-% Su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram.
-% Qui se -- des ad dex -- te -- ram Pa -- tris:
-% Mi -- se -- re -- re no -- bis.
+QuiTollisSopranoLyrics = \lyricmode {
+  Qui tol -- %31
+  lis pec -- ca --
+  ta mun -- di:
+  Mi -- se --
+  re -- re %35
+  no -- bis.
+
+  Qui tol --
+  lis pec -- ca -- ta
+  mun -- di: Su -- sci -- pe %40
+  de -- pre -- ca -- ti --
+  o -- nem no --
+  _
+  stram.
+  Qui se -- %45
+  des ad dex -- te -- ram
+  Pa -- tris: Mi -- se --
+  re -- re, mi -- se --
+  re -- re
+  no -- bis. %50 finis
+}
+
 % Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
 % tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
 % Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.
@@ -281,3 +325,15 @@ GloriaSopranoLyrics = \lyricmode {
 % Mi -- se -- re -- re no -- bis.
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
 % Do -- na no -- bis pa -- cem.
+
+QuoniamSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoQuoniam
+      \set Score.currentBarNumber = #53
+  }
+}
+
+QuoniamSopranoLyrics = \lyricmode {
+
+}

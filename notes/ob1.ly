@@ -67,3 +67,41 @@ GloriaOboeI = {
     s1*30 \bar "||" %30 finis
   }
 }
+
+QuiTollisOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #31
+    es'2\fE f
+    g4. g8 f2
+    es es4 d
+    g2 f
+    f es %35
+    es4 d es r
+    R1
+    g2 g
+    f4. f8 fis4. fis8
+    fis4 fis g8. g16 g4 %40
+    g f f es
+    es d d2
+    e d
+    d4 r r2
+    g g %45
+    f4 f f f8 f
+    es4 es d4. d8
+    c4 c c4. c8
+    d2 es
+    es4 d c r %50
+    R1
+    R\fermata \bar "||" %52 finis
+  }
+}
+
+QuoniamOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoQuoniam
+      \set Score.currentBarNumber = #53
+  }
+}

@@ -216,3 +216,70 @@ GloriaBassFigures = \figuremode {
   \bo <[5]>4. \bc <[6]>8 r4 <6 [5]>
   r <6>2. %30 finis
 }
+
+QuiTollisOrgano = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #31
+    \mvTr c4\f-\tutti c8\p r d4\f d8\p r
+    es4\f es8\p r f4\f f8\p r
+    fis4\f fis8\p r g4\f g,8\p r
+    e'4\f e8\p r f4\f f8\p r
+    d4\f d8\p r es4\f a,!8\p r %35
+    b2\fp es8[\f r16.-\solo es32] c8[ r16. es32]
+    a,!4 b8 b' es,\ffE es b' b,
+    \mvTr es4\fE-\tutti es8\p r e4\f e8\p r
+    f4\f f8\p r es4\f es8\p r
+    d4\f d8\p r g4\f g8\p r %40
+    c4\f f,!8\p r b4\f es,8\p r
+    a4\f d,8\p r g4\f g8\p r
+    cis,4\f cis8\p r d4\f d8\p r
+    \mvTr g,8[\f-\critnote r16.-\solo g'32] es8[ r16. g32] cis,4 d8 d
+    g4 g8\p r e4\f e8\p r %45
+    f4\f f8\p r d4\f d8\p r
+    es!4\f es8\p r h4\f h8\p r
+    c4\f c8\p r f4\f f8\p r
+    f4\f f8\p r fis4\f fis8\p r
+    g4\f g,8\p r c[\f r16.-\solo c'32] as8[ r16. c32] %50
+    fis,8[ r16. fis32] g8 g c,\ff c g' g,
+    c4 r r2\fermata \bar "||" %52 finis
+  }
+}
+
+QuiTollisBassFigures = \figuremode {
+  r2 <6! [5-]> %31
+  <6> <6- _->
+  <7 _!> \bo <[6] 4>4 \bc <[5] _!>
+  <[7-] 5->2 <_!>
+  <6 5->2. <[7] 5>4 %35
+  \bo <[6] 4> \bc <[5] 3> r2
+  <7 5>4 \bo <[6] 4>8 <5 3>4. <6 4>8 \bc <[5] 3>
+  r2 <6 5>
+  <_-> <4! 2+>
+  <7 _+>1 %40
+  r4 <7>2 q4
+  r <7 _+>2.
+  <7 5 [_!]>2 \bo <[6] 4>4 \bc <[5] _+>
+  r2 <[7 _!]>4 \bo <[6] 4>8 \bc <[5] _+>
+  r2 <6 5> %45
+  <_-> <6 5->
+  r <7->
+  r2 <_->
+  <[4!] _-> <7 _!>
+  \bo <[6] 4>4 \bc <[5] _!>2. %50
+  <[7 _!]>4 \bo <[6] 4>8 <5 _!>4. <6 4>8 \bc <[5] _!>
+  r1 %52 finis
+}
+
+QuoniamOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoQuoniam
+      \set Score.currentBarNumber = #53
+  }
+}
+
+QuoniamBassFigures = \figuremode {
+
+}

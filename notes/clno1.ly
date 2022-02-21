@@ -102,3 +102,11 @@ GloriaClarinoI = {
     R\fermata \bar "||" %30 finis
   }
 }
+
+QuoniamClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoQuoniam
+      \set Score.currentBarNumber = #53
+  }
+}
