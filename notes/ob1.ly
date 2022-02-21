@@ -225,3 +225,22 @@ CredoOboeI = {
     c, r r2\fermata \bar "||" %29 finis
   }
 }
+
+EtIncarnatusOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #30
+    r8 es'\fE es es d8. d16 d8 d %30
+    es4 d8 c c h d\pE d
+    f4 es\fE d8.\pE d16 g8\fE g
+    g4\pE ges f4.\fE f8
+    g4 r r2
+    r \tempoCrucifixus es8. es16 es8 es %35
+    f8. f16 d8 d d c r g'
+    f8. f16 f8 f f es es4~\p
+    es d2 c4~
+    c c h c
+    c h8. h16 c4 r\fermata \bar "||" %40
+  }
+}

@@ -552,3 +552,36 @@ CredoBassFigures = \figuremode {
   r1
   r %29 finis
 }
+
+EtIncarnatusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #30
+    \mvTr c8\fE-\tutti c c c h h h h
+    c c f fis g g, \mvTr g'\p-\senzaOrg g
+    f16 f f f f\f f f f b,\p b' b b g\f g g g
+    c,\p c c c a!\crescE a a a b\f b b b b b b b
+    es4 r es\p r
+    es8\f es b' b, \tempoCrucifixus es8.-\colOrg es16 es8 es %35
+    d8. d16 h8 g c c'16. h32 c16. g32 es16. c32
+    f8. f16 d8 b es es r4
+    \mvTr a,!\p-\senzaOrg h c4. d16 es
+    f4 fis g c,
+    g2 c4 r\fermata \bar "||" %40 finis
+  }
+}
+
+EtIncarnatusBassFigures = \figuremode {
+  r2 <6> %30
+  r4 \bo <8 6 [_-]>8 \bc <7 5 [_!]> \bo <[6] 4> \bc <[5] _!>4.
+  r1
+  r
+  r
+  r %35
+  <6!>4 <5>8 <\t> <9 4> <8 3>4.
+  <_->4 <6 5-> <9 4->8 <8 3>4.
+  r1
+  r
+  r %40 finis
+}

@@ -523,3 +523,36 @@ CredoAltoLyrics = \lyricmode {
   de -- scen -- dit de coe --
   lis. %28 finis
 }
+
+EtIncarnatusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoEtIncarnatus
+      \set Score.currentBarNumber = #30
+    r8 \mvTr es\fE^\tuttiE es es d8. d16 d8 d
+    es4 d8 c c h d\p d
+    f4 es\f d8.\p d16 g8\f g
+    g4\p ges f4.\f f8
+    g4 r r2
+    r \tempoCrucifixus es8. es16 es8 es %35
+    f8. f16 d8 d d c r g'
+    f8. f16 f8 f f es es4~\p
+    es d2 c4~
+    c c h c
+    c( h8.) h16 c4 r\fermata \bar "||" %40 finis
+  }
+}
+
+EtIncarnatusAltoLyrics = \lyricmode {
+  Et in -- car -- na -- tus est de %30
+  Spi -- ri -- tu San -- cto ex Ma --
+  ri -- a Vir -- gi -- ne, et
+  ho -- mo fa -- ctus
+  est.
+  Cru -- ci -- fi -- xus %35
+  e -- ti -- am pro no -- bis sub
+  Pon -- ti -- o Pi -- la -- to, pas --
+  _ _
+  sus et se --
+  pul -- tus est. %40 finis
+}

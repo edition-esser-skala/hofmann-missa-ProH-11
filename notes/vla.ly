@@ -39,3 +39,11 @@ CredoViola = {
     
   }
 }
+
+EtIncarnatusViola = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #30
+  }
+}

@@ -302,3 +302,22 @@ CredoViolinoI = {
     c4 r r2\fermata \bar "||" %29 finis
   }
 }
+
+EtIncarnatusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #30
+    c16(\fE es) es( g) g( c) c( es) g,( h) h( d) d( g) d'( f,) %30
+    es g,(-. g-. g-.) f(-. f-. es-. es-.) es8\trill d g\p g
+    as16 as as as a\f a a a b\p b b b h\f h h h
+    c\p es es es es\cresc es es es es\fE es es es d d d d
+    es g,(\pE as b c d es f g) b,( c d es f g as)
+    b(\fE g) r32 b,( as g) g8 f\trill \tempoCrucifixus es8. g16 g8 g %35
+    f8. f16 f8 f f es r es
+    as8. as16 as8 as as\trillE g g4\p
+    f2 es
+    d2. es4
+    es d\trill c r\fermata \bar "||"
+  }
+}
