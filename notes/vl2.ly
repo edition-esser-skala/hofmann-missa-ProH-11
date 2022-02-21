@@ -267,3 +267,39 @@ QuoniamViolinoII = {
     c,4 r r\fermata \bar "|." %155 finis
   }
 }
+
+CredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    <g' e' c'>4 <g d' h'> c16 c' c, c' d, c' d, h'
+    c16. g32 e16. g32 c,16. g32 e16. g32 c,16 e' e, e' d e, c' e,
+    h' e, c' a e' c a' c, d, c' a' c, h g g' h,
+    h8 a d d g16 <h, d,>8 q16 <c a'> <c d,>8 q16
+    <h g'> <h d,>8 q16 <a fis'> <a d,>8 q16 \tuplet 3/2 8 { g'16 h a g[ fis g] g fis e e[ d c] } %5
+    \tuplet 3/2 8 { h[ g' a] g fis g } a,8 fis' g,16. g,32 a16. h32 c16. d32 e16. fis32
+    g8 h'16( g) g( d) d( h) c8.(\trill h32 c) h16. h,32 d16. g32
+    \appoggiatura c32 h16 a32( h) g'16([ d)] d( h) h( g) c8.(\trill h32 c) h8 g'16( h,)
+    \tuplet 3/2 8 { c[ e d] c h c a'[ fis g] a fis c } h8 h'16 g, fis a' e, g'
+    \kneeBeam h,,8 \tuplet 3/2 8 { h''16 g e } fis,8 dis' e,16. g32 h16. a32 g16. fis32 e16. dis32 %10
+    e16 g8 h e g16 f! d8 h gis f'16
+    e e, d' e, c' a' a c, h( d) d( f) \tuplet 3/2 8 { f[ e d] c h a }
+    a8.(\trill gis32 a) gis8. e'16 f!( d) d( h) h( gis) gis( f')
+    e( c) c( a) a( e) e( c') h( d) d( h) h( e,) e( h')
+    h( gis) gis( a) a( e') e( a,) b( d) d( f) \tuplet 3/2 8 { f[ e d] d c b } %15
+    a16. c32 c16. c32 c16. c32 c16. c32 h16. gis32 a16. c32 h8 gis'
+    a,16. a32 gis16. a32 f16. f32 e16. f32 d16. d32 c16. h32 e8 <e h' gis'>
+    <e c' a'> a16( c) c( e) e( a) a16. cis,32 cis16. cis32 cis16. a'32 a16. a32
+    a16. d,32 d16. d32 d16. a'32 a16. a32 a16. dis,32 dis16. dis32 \tuplet 3/2 8 { dis16[ a' h] c h a }
+    e'16. e,32 e16. e32 \tuplet 3/2 8 { e16[ d c] h a gis } a16. a'32 a16. a32 \tuplet 3/2 8 { a16[ a, h] c h a } %20
+    f'16. d'32 d16. d32 d16. f,32 e16. c'32 e,8.(\trill d32 e) d8 d
+    g-! d-! h-! g-! d16( h) d( h) d( h) d( h)
+    c8 e c'4. a8 f'4~
+    f16. d'32 d16. f,32 e16. c'32 c16. c,32 c8.(\trill h32 c) h4
+    r8 g'-! e( c) f,2 %25
+    e8 c'16. e,32 d8 h' c, g''\p e( c)
+    f,2 e8 c'16.\f e,32 d8 h'
+    c,16. c'32 h16. c32 a16. a32 g16. a32 f16. f32 e16. d32 g8 g,
+    c4 r r2\fermata \bar "||" %29 finis
+  }
+}

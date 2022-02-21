@@ -13,6 +13,8 @@ tempoGloria = \tempoMarkup "Allegro"
 tempoQuiTollis = \tempoMarkup "Adagio"
 tempoQuoniam = \tempoMarkup "Allegro molto"
 
+tempoCredo = \tempoMarkup "Allegro"
+
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"

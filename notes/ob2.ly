@@ -243,3 +243,39 @@ QuoniamOboeII = {
     g r r\fermata \bar "|." %155 finis
   }
 }
+
+CredoOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    g'4\fE g e8 g16 g a8 g
+    g4 g g8 g16 g gis?8 a
+    h a r a a a g g16 g
+    g8 fis r4 g8 g a a16 a
+    g8. g16 fis4 g8 g g a %5
+    d,4. d8 d4 r
+    g8 g g g g8. g16 g4
+    g8 g16 g g8 g g4 g
+    r8 a a a g g fis e
+    e4 dis8. dis16 e4 r %10
+    g4. g8 gis4 h
+    a a f8 f f fis16 fis
+    e8. e16 e4 f f8 f
+    e4 e e e8 e
+    e8. e16 e4 f4. f8 %15
+    fis4 fis8 fis e e e4
+    e r r2
+    a8. a16 a8 a a4 a
+    a4. a8 a a a a
+    a4 gis r a8 a %20
+    a4 g8 g g8. g16 g8 d'
+    d4 d8 d d4. d8
+    c4 r8 e, a4. a8
+    g4 g8 g g4 g
+    r2 r8 d d4 %25
+    c8 e d4 e8 r r4
+    r8 d\pE d4 c8 e\fE d4
+    c a' f g
+    c, r r2\fermata \bar "||" %29 finis
+  }
+}

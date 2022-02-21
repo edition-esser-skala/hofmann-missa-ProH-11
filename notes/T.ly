@@ -433,3 +433,70 @@ QuoniamTenoreLyrics = \lyricmode {
   men, a --
   men. %155 finis
 }
+
+CredoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoCredo
+    \mvTr c4\fE^\tuttiE h c8 e16 e d8 d
+    e4 e e8 e16 e e8 e
+    e e r e d d d d16 d
+    d8 d r4 h8 h c c16 c
+    h8. h16 a4 h8 h c h16([ a)] %5
+    g4( fis8.) fis16 g4 r
+    h8 h h h c8. c16
+    h4 h8 h16 h h8 h c4 h
+    c d8 d d d c c
+    h4. h8 h4 r %10
+    h4. h8 d!([ e)] f!4
+    e e d8 d d c16 c
+    c8. h16 h4 h h8 h
+    c4 c h h8 h
+    h8. a16 a4 a4. d8 %15
+    c4 c8 c h c h4
+    a r r2
+    e'8. e16 e8 e e4 e
+    d4. a16([ h)] c8 c c c
+    c4 h r c8 c %20
+    d4 d8 c c8. h16 h8 h
+    h4 h8 h h4. h8
+    c4 r8 c c4. d8
+    d4 c8 c c4 h
+    r2 r8 a g4 %25
+    g8 g g4 g8 r r4
+    r8 a\pE g4 g8 g\fE g4
+    g r r2
+    R1\fermata \bar "||" %29 finis
+  }
+}
+
+CredoTenoreLyrics = \lyricmode {
+  Cre -- do, cre -- do in u -- num
+  De -- um, Pa -- trem o -- mni -- po --
+  ten -- tem, fa -- cto -- rem coe -- li et
+  ter -- rae, vi -- si -- bi -- li -- um
+  o -- mni -- um et in -- vi -- si -- %5
+  bi -- li -- um.
+  Et in u -- num Do -- mi -- num,
+  Do -- mi -- num Je -- sum Chri -- stum,
+  Fi -- li -- um De -- i u -- ni --
+  ge -- ni -- tum. %10
+  Et ex Pa -- tre
+  na -- tum an -- te o -- mni -- a
+  sae -- cu -- la, De -- um de
+  De -- o, lu -- men de
+  lu -- mi -- ne, De -- um %15
+  ve -- rum de De -- o ve --
+  ro.
+  Ge -- ni -- tum non fa -- ctum,
+  con -- sub -- stan -- ti -- a -- lem
+  Pa -- tri, per quem %20
+  o -- mni -- a fa -- cta sunt, qui
+  pro -- pter nos ho -- mi --
+  nes et pro -- pter no --
+  stram sa -- lu -- tem
+  de -- scen -- %25
+  dit de coe -- lis,
+  de -- scen -- dit de coe --
+  lis. %28 finis
+}

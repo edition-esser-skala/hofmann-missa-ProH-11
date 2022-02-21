@@ -484,3 +484,71 @@ QuoniamBassFigures = \figuremode {
   r
   r %155 finis
 }
+
+CredoOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoCredo
+    \mvTr c'4\fE-\tutti g a8 e f g
+    c,4 c'16. g32 e16. g32 c,8 c' h a
+    gis a r a fis d g g
+    d' d, r4 g16 d h' g fis d a' fis
+    g d h' g d' a fis d g8 g c, c %5
+    d d d d g16. g,32 a16. h32 c16. d32 e16. fis32
+    g8 g g g c c, g'4
+    g8 g g g c c, g'4
+    a8 a fis d g g a a,
+    h h h h e16. g32 h16. a32 g16. fis32 e16. dis32 %10
+    e8 e e e d d d d
+    c h a c d d d dis
+    e e e e d d d d
+    c c c c gis gis gis gis
+    a a a a d d d d %15
+    dis dis dis dis e a, e' e,
+    a16. a'32-\solo gis16. a32 f16. f32 e16. f32 d16. d32 c16. h32 e8 e
+    a-\tutti a a a g! g g g
+    fis fis fis fis f f f f
+    e e e d c c a a %20
+    d d h c g' g g, g'
+    g4 g,8 g' g g g g
+    c,4 r8 c f4. d8
+    h g c e g g, g'16. f32 e16. d32
+    c4 r r8 d h g %25
+    c c g' g, c r r4
+    r8 d\p h g c c\f g' g,
+    c16. c'32-\solo h16. c32 a16. a32 g16. a32 f16. f32 e16. d32 g8 g,
+    c4 r r2\fermata \bar "||" %29 finis
+  }
+}
+
+CredoBassFigures = \figuremode {
+  r2 r8 <[6]> <6 5>4
+  r2. <6\\>4
+  <6 5>2 <6 5>8 <\t \t>4.
+  \bo <[6] 4>8 \bc <[5] _+> r2 <6 5>4
+  r <_+>2 <5>8 <6> %5
+  \bo <[6] 4>4 \bc <[5] _+>2.
+  r1
+  r
+  r4 <6 5>8 <\t \t> r4 <8 6\\>8 <7 5>
+  \bo <[6] 4>4 \bc <[5+] _+>2. %10
+  r2 <6 4+ _!>
+  <6> q4. <7 5 [_+]>8
+  \bo <[6] 4>4 \bc <[5] _+> <6 4+ _!>2
+  <6> <6 5>
+  <9 4>4 <8 3> <6->2 %15
+  <7 5 [_+]> <_+>4 <5 4>8 <\t _+>
+  r2 <6 5>4 <4>8 <_+>
+  r2 <4+ 2>
+  <6> <6\\>
+  \bo <[6] 4>4 \bc <[5] _+> <6>2 %20
+  <_!>4 <6! 5> \bo <[6] 4> \bc <[5] 3>
+  r2 <7>
+  r1
+  <6 5>2 \bo <[6] 4>4 \bc <[5] 3>
+  r2 r8 <5> <6 [5]>4 %25
+  r <5 4>8 <\t 3> r2
+  r4 <6 [5]>2 <4>8 <3>
+  r1
+  r %29 finis
+}

@@ -31,3 +31,11 @@ QuoniamViola = {
       \set Score.currentBarNumber = #53
   }
 }
+
+CredoViola = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    
+  }
+}

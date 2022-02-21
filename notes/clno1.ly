@@ -186,3 +186,31 @@ QuoniamClarinoI = {
     c r r\fermata \bar "|." %155 finis
   }
 }
+
+CredoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    g''4\fE g e r8 d
+    c4 c8. c16 c8[ e d c]
+    d c r4 r r8 g'
+    g fis d d d2~
+    d d8 g4 g8 %5
+    g4 fis g r
+    g8. g16 g8 g g8. g16 g4
+    g8 g16 g g8 g g4 g
+    R1*7 %15
+    r2 e8 e16 e e8 e
+    e4 r r2
+    R1*3 %20
+    r4 r8 e e4 d
+    d d8 d d4. d8
+    e4 r r2
+    r4 r8 e e4 d
+    r2 r8 f f4 %25
+    e8 e d4 c r
+    r2 r8 e\fE d4
+    c r r2
+    R1\fermata \bar "||" %29 finis
+  }
+}

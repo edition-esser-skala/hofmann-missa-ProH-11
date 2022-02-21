@@ -431,23 +431,73 @@ QuoniamSopranoLyrics = \lyricmode {
   men. %155 finis
 }
 
-% Cre -- do in u -- num De -- um,
-% Pa -- trem o -- mni -- po -- ten -- tem,
-% fa -- cto -- rem coe -- li et ter -- rae,
-% vi -- si -- bi -- li -- um o -- mni -- um
-% et in -- vi -- si -- bi -- li -- um.
-% Et in u -- num Do -- mi -- num Je -- sum Chri -- stum,
-% Fi -- li -- um De -- i u -- ni -- ge -- ni -- tum,
-% et ex Pa -- tre na -- tum an -- te o -- mni -- a sae -- cu -- la.
-% De -- um de De -- o, lu -- men de lu -- mi -- ne,
-% De -- um ve -- rum de De -- o ve -- ro,
-% ge -- ni -- tum non fa -- ctum,
-% con -- sub -- stan -- ti -- a -- lem Pa -- tri,
-% per quem o -- mni -- a fa -- cta sunt.
-% Qui pro -- pter nos ho -- mi -- nes
-% et pro -- pter no -- stram sa -- lu -- tem
-% de -- scen -- dit de coe -- lis.
-%
+CredoSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoCredo
+    \mvTr e'4\fE^\tuttiE d c8 c16 c c8 h
+    c4 c e8 e16 e d8 c
+    d c r c c c h h16 h
+    h8 a d d d4 d8 d
+    d8. d16 d4 d8 d e d16([ c)] %5
+    h4( a8.) a16 g4 r
+    d'8 d d d e8. e16 d4
+    g8 d16 d d8 d e4 d
+    c c8 c h h a8. g16
+    g4( fis8.) fis16 e4 r %10
+    e'4. e8 f!4 gis,
+    a8([ h)] c4 h8 h h a16 a
+    a8. gis16 gis4 gis gis8 gis
+    a4 a d d8 d
+    d8. c16 c4 b4. b8 %15
+    a4 a8 a gis a a([ gis)]
+    a4 r r2
+    c8. c16 c8 c cis4 cis
+    d4. d8 dis dis dis dis
+    e4 e, r e'8 e %20
+    f4 f8 e e8. d16 d8 d
+    g([ d)] h g f4. f8
+    e g c4. a8 f'4~
+    f e8 e e4 d
+    r8 g e([ c] f,2) %25
+    e8 c' c([ h)] c g'\p e([ c]
+    f,2) e8 c'\f c([ h)]
+    c4 r r2
+    R1\fermata \bar "||" %29 finis
+  }
+}
+
+CredoSopranoLyrics = \lyricmode {
+  Cre -- do, cre -- do in u -- num
+  De -- um, Pa -- trem o -- mni -- po --
+  ten -- tem, fa -- cto -- rem coe -- li et
+  ter -- rae, vi -- si -- bi -- li -- um
+  o -- mni -- um et in -- vi -- si -- %5
+  bi -- li -- um.
+  Et in u -- num Do -- mi -- num,
+  Do -- mi -- num Je -- sum Chri -- stum,
+  Fi -- li -- um De -- i u -- ni --
+  ge -- ni -- tum. %10
+  Et ex Pa -- tre
+  na -- tum an -- te o -- mni -- a
+  sae -- cu -- la, De -- um de
+  De -- o, lu -- men de
+  lu -- mi -- ne, De -- um %15
+  ve -- rum de De -- o ve --
+  ro.
+  Ge -- ni -- tum non fa -- ctum,
+  con -- sub -- stan -- ti -- a -- lem
+  Pa -- tri, per quem %20
+  o -- mni -- a fa -- cta sunt, qui
+  pro -- pter nos ho -- mi --
+  nes et pro -- pter no --
+  stram sa -- lu -- tem
+  de -- scen -- %25
+  dit de coe -- lis, de -- scen --
+  dit de coe --
+  lis. %28 finis
+}
+
 % Et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto
 % ex Ma -- ri -- a Vir -- gi -- ne, et ho -- mo fa -- ctus est.
 %

@@ -156,3 +156,28 @@ QuoniamTimpani = {
     c4 r r\fermata \bar "|." %155 finis
   }
 }
+
+CredoTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoCredo
+    c4\fE g r r8 g
+    c4 c8. c16 c4 r
+    R1
+    r2 g4 r
+    g r g r %5
+    r2 g4 r
+    g8 g g g c8. c16 g4
+    g8 g16 g g8 g c4 g
+    R1*12 %20
+    r4 r8 c g8. g16 g4
+    g8 g16 g g8 g g4. g16 g
+    c4 r r2
+    r4 r8 c g g16 g g4
+    r2 r4 r8 g %25
+    c c16 c g g g g c4 r
+    r2 r8 c16\fE c g8 g
+    c4 r r2
+    R1\fermata \bar "||" %29 finis
+  }
+}
