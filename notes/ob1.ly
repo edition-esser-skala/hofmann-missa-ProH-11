@@ -244,3 +244,107 @@ EtIncarnatusOboeI = {
     c h8. h16 c4 r\fermata \bar "||" %40
   }
 }
+
+EtResurrexitOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #41
+    c4\fE e8 g c4 c
+    c h16 a g f e8 c r e'
+    e4 f8 e e d g, g
+    h g d' h f' e r4
+    r r8 c e f r4 %45
+    a,2\p h!
+    c d
+    e8\f e16 e e8 d16 d e4 d
+    c r8 e e8. e16 e8 e
+    e e e e e8. e16 e4 %50
+    e e e e
+    e8 e r4 c8 h r4
+    R1*2
+    r4 h8\f h c h r h %55
+    c c h4 a r
+    c4. c8 d d16 d e8 e
+    f8. c16 c4 b8 b b b
+    b4 a g4. g8
+    f f f f f e16 f g8 f %60
+    f4 e f4. f8
+    fis4 fis8 fis g8. g16 g4
+    a8 a a a b4 b8 b
+    b b a a a4 g
+    b8 b b b a4 g8 g %65
+    a4 g f r
+    r8 f' f f f4 e8 e
+    e8. d16 d4 r8 d d d
+    d8. d16 c!8 c c8. h16 h8 h
+    c8. c16 c4 cis cis8 cis %70
+    d4 d e8 e e e
+    f f f e e4 d
+    r d8 d e4 e
+    e8. e16 e8 e e d r4
+    R1*8 %82
+    c4.\p d8 es d c4~ \noBreak
+    c h!8 a h4 r\fermata \bar "||"
+    \tempoEtVitam R1*6 %90
+    r4 g\fE g' h,
+    r8 c fis, g a h16 h c4
+    h r r g
+    e' e, r e'
+    d d c4. c8 %95
+    h4 h2 c4~
+    c c2 d4~
+    d d2 \once \tieDashed e4~
+    e a, a2
+    g4 r r2 %100
+    R1*2
+    r2 r4 g
+    g' h, r8 c fis, g
+    a h16 h c4 h8.[ a16 g8.-\critnote f16] %105
+    e8 \once \tieDashed c'~ c16 a d c h8 g'~ g f16 e
+    d8 c h4 c8 e gis, a^\critnote
+    h c16 c d4 c r
+    r2 r8 d fis, g
+    a h16 h c4 h g8 a %110
+    h c d4 c e~
+    e d2 \once \tieDashed c4~
+    c h c8 c d c
+    h4 g g' h,
+    r8 c e, f g a16 h c4 %115
+    h g8 a^\critnote h c d4
+    c e8. d16 c4 e
+    d r r2
+    r4 g2 f!4~
+    f e2 d4~ %120
+    d8 g, c2 h4
+    c r r2
+    R1*2
+    r2 e4\fE d %125
+    e d e r\fermata \bar "|." %126 finis
+  }
+}
+
+SanctusOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    e'2\fE e4 r
+    r2 e4 e
+    e e d8 d16 d d8 d \noBreak
+    c4. c8 h2\fermata \bar "||"
+    \tempoPleni R1 \noBreak %5
+    f'4 f8 f f4 e
+    a, a8 a g4 g
+    f f8 f e4 e
+    d8. d16 e4 d2
+    c4 r8 c' b2 %10
+    a4 r8 a c2
+    h!4 g8 g f'!2
+    e4 e e f
+    f e d2
+    c4. c8 b4. b8 %15
+    a4 b a g
+    a b a2
+    g1\fermata \bar "|." %18 finis
+  }
+}

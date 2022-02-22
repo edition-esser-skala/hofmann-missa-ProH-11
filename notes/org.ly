@@ -585,3 +585,249 @@ EtIncarnatusBassFigures = \figuremode {
   r
   r %40 finis
 }
+
+EtResurrexitOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #41
+    \mvTr c4-!\fE-\tutti-\unisonoE e8-! g-! c16 c, c' c c c, c' c
+    c e d c h a g f e8 c r c
+    c4 f8 fis g g, r4
+    r r8 g' g c c, c
+    e-! c-! g'-! e-! b'-! a-! r4 %45
+    f8\p f f f f f f f
+    e e e e h h h h
+    c\f c' a f g g g, g
+    c c' h a gis e gis e
+    a c gis e a,16 a' c a e' e, gis e %50
+    a a c a gis h e, gis a a c a e' e, gis e
+    a8 e r4 a,8 e' r4
+    a,2-!\p h-!
+    c-! \parOn d4.-\parenthesize-! d8-\parenthesize-!
+    \parOff e4-\parenthesize-! e8\f e a e r e %55
+    a a e e, a16. a32 h16. c32 d16. e32 fis16. gis32
+    a8 a a a g g c, c
+    f f f f g g e c
+    f f, f16.f'32 e16. d32 cis8 cis cis cis
+    d d, d' c b4 g8 g %60
+    a a a' a, d d d d
+    c! c c c b b b b
+    fis fis' fis fis g g g g
+    e e f f c c c c
+    c c e c f f, b b %65
+    c c c c f,4 r
+    r8 f' f f c c cis cis
+    d4~ d16. d'32 a16. f32 d8 f d h!
+    gis gis a a e' e e e
+    a a a a g! g g g %70
+    f a f d cis e cis a
+    d d h c g'4 g,16. g'32 d16. h32
+    g4 g'8 g c4 c,
+    c8. c16 e8 c g' g, r4
+    c8\p d es c f d g g, %75
+    c4 r8 c h!4 r8 h
+    c4 r8 c h!4 r8 h
+    c d es c f d g g,
+    c d es c b c d b
+    es f g es f es d b %80
+    es d c h!16 c d8 c h! g
+    c d es c f d g f
+    es d c b as2 \noBreak
+    g2. r4\fermata \bar "||"
+    \tempoEtVitam r4 c-!\fE c'-! fis,-! \noBreak %85
+    r8 g-! h,-! c-! d-! e-! f4-!
+    << {
+      r g g' h,
+      r8 c fis, g a h c4
+      h8. a16
+    } \\ {
+      e4 r r8 c g'8. f16
+      e4 d8 e fis g a d,
+      g8. f16
+    } >> e8. d16 c8. h16 a4
+    g g'8 f16 e d8 c h g %90
+    c4 \clef "treble_8" r8 c' h8. a16 g8 a16 h
+    c4 d8 c16 h a8 g fis4
+    g \clef bass g, g' h,
+    r c c' fis,8. fis16
+    h4 e, a d, %95
+    g g8. fis16 e8.[ d16 c8. h16]
+    a4 a'8. g16 fis8.[ e16 d8. c16]
+    h4 h'8. a16 g8.[ fis16 e8. d16]
+    c8 c cis cis d d d d
+    g4 h\p c fis, %100
+    h e, a d,
+    g fis e d
+    c d g, \clef treble << {
+      g''\fE
+      g' h, r8 c fis, g
+      a h c4 h8. a16
+    } \\ {
+      r4
+      r8 g, g'8. f!16 e4 d8 e
+      fis g a4 g8. f16
+    } >> \clef bass c,4 %105
+    c' fis, r8 g h, c
+    d e f4 e8 \clef "treble_8" e'4 d16 c
+    h8 a gis4 a8 \clef bass a4 g16 f
+    e8 d cis4 d8 \clef "treble_8" d'4 c16 h
+    a8 g fis4 g8 \clef bass g4 f16 e %110
+    d8 c h4 c c
+    f h, e a,
+    d g, c8 c h c
+    g4 \clef treble << {
+      g''-! g'-! h,
+      r8 c e, f g a16 h c
+    } \\ {
+      r4 r2
+      c,4 c' e, r16
+    } >> \clef bass c, e f %115
+    g4. f16 e d8 c h4
+    c c' e, \clef treble << { e'' d8 } \\ { c,4 h8 } >>
+    \clef bass g h, c d e fis g
+    a d, g4 g2
+    g,1~-\tasto %120
+    g
+    c4 e'\p f h,
+    e a, d g,
+    c h a g
+    f g c,8\f c' g g, %125
+    c c' g g, c4 r\fermata \bar "|." %126 finis
+  }
+}
+
+EtResurrexitBassFigures = \figuremode {
+  r1 %41
+  r
+  r4 <8 6>8 <7 5> \bo <[6] 4> \bc <[5] 3>4.
+  r2 <7>
+  r <4 2>8 <6>4. %45
+  r2 <4! 2>
+  <6> <6 [5]>
+  r4. <6 5>8 \bo <[6] 4>4 \bc <[5] 3>
+  r2 <6>
+  r4 <[6]>2 <_+>4 %50
+  r <6 5>2 <_+>4
+  r8 q2 <[_+]>4.
+  r1
+  r
+  r4 <_+>4. q4 <[_+]>8 %55
+  r4 <5 4>8 <\t _+> r2
+  r2 <_->4 <7->
+  r2 <_->4 <6 5->8 <\t \t>
+  <9 4->4 <8 3> <6 5>2
+  r2. \bo <8 6 [_-]>8 \bc <7 5 [\t]> %60
+  \bo <[6] 4>4 \bc <[5] _+>2.
+  <4+ _->2 <6>
+  q <_->
+  <6 5> \bo <[6] 4>4 \bc <[5] 3>
+  <7->2. <6 5>4 %65
+  \bo <[6] 4> \bc <[5] 3>2.
+  r2 \bo <[6] 4>4 \bc <[5] 3>
+  <9 4> <8 3>2 <[6]>4
+  <6 5>2 \bo <[6] 4>4 \bc <[5] _+>
+  r2 <4+ 2> %70
+  <[6]> <6>
+  r4 <6 5> \bo <[6] 4> \bc <[5] 3>
+  r1
+  r2 \bo <[6] 4>8 \bc <[5] 3>4.
+  <_->2 <6 5 [_-]>4 <[_!]> %75
+  <_->2 <[6]>
+  <_-> <[6]>
+  <_-> <6 5 [_-]>4 \bo <[_!]>
+  \bc <[9] _->4 <6> <5 4-> <[6-]>
+  \bo <9 [5-]> \bc <6- [_-]> <9 _-> <10 [5-]> %80
+  <9 [5-]> <10-> <9-> <10>
+  <_->2 <6 5 [_-]>4 <[_!]>
+  <6> <_-> \bo <7 [5-]> \bc <6\\ [\t]>
+  <6- 4> \bo <[5] _!>8 <4 2> \bc <[5] _!>2
+  r1 %85
+  r
+  r
+  r
+  r4 <6>2 <6\\>4
+  r <3> <6> <6 5!> %90
+  r2 <[6]>
+  r4 <_+> <6\\> <5>
+  r2. <[6]>4
+  r2. <7>4
+  <7 [5+]> <7> q <7 _+> %95
+  r2 <[5]>
+  r <5>4 <_+>
+  <5+>2. <5>4
+  r <6 5> <4> <_+>
+  r <[6]>2 <7>4 %100
+  <7 [5+]> <7> q <7 _+>
+  <3>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+  \bo <[5]>8 <6> <6 4>8 \bc <[5] _+> r2
+  r1
+  r %105
+  r4 <6 5>2 <[6]>4
+  <6 [_!]>8 <6> <4 [2]>4 <6>8 <[_!]> <_+> <5 _+>
+  <6\\>4 <[6] 5> <_!>8 <\t> <_+> <5>
+  <6\\>8 <_!> <6 5>4 <_!>8 <\t> <_+> <5>
+  <6\\>4 <[6] 5>2. %110
+  <6>4 <6 5>2.
+  <7>4 q q q
+  q q2 <6 5>4
+  r1
+  r %115
+  r4. <5>8 <6>4 <6 5>
+  r2 <[6]>
+  r4 <[6]> <3+>8 <3> q q
+  q1
+  r %120
+  <6 5>4 <\t 4> <5 \t> <\t 3>
+  r4 <[6]>2 <7>4
+  q q q q
+  <3>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+  \bo <[5]>8 <6> <6 4>8 \bc <[5] _+> r4 <4>8 <3> %125
+  r1 %126 finis
+}
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSanctus
+    \mvTr c2\fE-\tutti c4 \clef treble r8 e'\p
+    f e d g, \clef bass c,4\f c
+    c' a fis g \noBreak
+    a4. a8 g16 g d h g4\fermata \bar "||"
+    \tempoPleni g8 a h g c d e c \noBreak %5
+    a a' h g c c, e c
+    f a d, f h, g c e
+    a, a h g c d e f
+    g g e c g' f g g,
+    c c' g e c g' e c %10
+    f a c a fis a fis d
+    g d h d g, d' h g
+    c4 c'8 h a g f e
+    d4 c g' g,
+    c8 c' g e c g' e c %15
+    f4 e f c
+    f e f2
+    c1\fermata \bar "|." %18 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r1
+  r
+  r2 <6 5>
+  <7>4 <6\\>2.
+  r2 \bo <[9]>4 \bc <[6]> %5
+  <6 5> <[6 5]> <5 4> <[6]>
+  <9> <10> <6 5>2
+  <6 5>4 <[6 5]> <9> <6>
+  r <[6]> <4> <3>
+  r2 <7-> %10
+  r <6 5>
+  <_!> <7!>
+  r1
+  <6>2 <5 4>4 <\t 3>
+  r2 <7-> %15
+  r4 <6 5->2 <7->4
+  r <6 5->2.
+  r1 %18 finis
+}

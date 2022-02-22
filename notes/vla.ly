@@ -47,3 +47,19 @@ EtIncarnatusViola = {
       \set Score.currentBarNumber = #30
   }
 }
+
+EtResurrexitViola = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #41
+  }
+}
+
+SanctusViola = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    
+  }
+}

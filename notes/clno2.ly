@@ -214,3 +214,88 @@ CredoClarinoII = {
     R1\fermata \bar "||" %29 finis
   }
 }
+
+EtResurrexitClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #41
+    c4\fE e8 g c4 c8 c
+    c4 g e8 c r c'
+    c4 d8 c c g r4
+    r r8 d' d c r4
+    r r8 c,16 c c8 c r4 %45
+    R1*2
+    c'4\fE r r8 g g8. g16
+    e4 r8 e e8._\critnote e16 e8 e
+    e e e e e4 e %50
+    e e8._\critnote e16 e4 e
+    e8 e r4 e8 e r4
+    R1*2
+    r4 e8\fE e16 e e8 e r e %55
+    e e16 e e8 e e4 r
+    R1*9 %65
+    r8 c16 c c8 c c4 r
+    R1*2
+    r4 r8 e e8._\critnote e16 e8 e
+    e2 r %70
+    R1
+    r8 d'4 c8 c4 g
+    r d'8 d e4 e
+    c8. c16 c8 c c g r4
+    R1*9 \noBreak %83
+    R1\fermata \bar "||"
+    \tempoEtVitam R1*8 %92
+    r4 d'2\fE d8. d16
+    e4 c8. c16 c4 r
+    R1 %95
+    d4 r r2
+    R1*2
+    r4 e d d8. d16
+    d4 r r2 %100
+    R1*4
+    r2 r4 c8.\fE c16 %105
+    c4 r r2
+    r4 g g r
+    R1*3 %110
+    r8 c d4 c r
+    R1
+    r2 r8 c d c
+    g4 r r2
+    r r4 c %115
+    g r r8 c d4
+    c c8. c16 c2
+    g4 r r2
+    r4 g'2 \once \tieDashed f4~
+    f e2 d4~ %120
+    d c2 g8. g16
+    e4 r r2
+    R1*2
+    r2 e'8\fE e d4 %125
+    e d c r\fermata \bar "|." %126 finis
+  }
+}
+
+SanctusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    c'2\fE c4 r
+    r2 c4 c
+    c2 r4 d4 \noBreak
+    c4. c8 d2\fermata \bar "||"
+    \tempoPleni R1*2 %6
+    r2 r4 e~
+    e d2 c4
+    g g8. g16 g4 g
+    e r r2 %10
+    R1
+    r2 g
+    c,4 r r2
+    r4 e' d4. d8
+    e4 r r2 %15
+    c,4 c c c
+    c c8. c16 c2
+    c1\fermata \bar "|." %18 finis
+  }
+}

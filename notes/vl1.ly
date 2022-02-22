@@ -318,6 +318,125 @@ EtIncarnatusViolinoI = {
     as8. as16 as8 as as\trillE g g4\p
     f2 es
     d2. es4
-    es d\trill c r\fermata \bar "||"
+    es d\trill c r\fermata \bar "||" %40 finis
+  }
+}
+
+EtResurrexitViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #41
+    c4\fE e16 c g' e c' c, c' c c c, c' c
+    c e d c h a g f e8 c c'16( d32 e f g a h)
+    c16 e, e e f d' e, c' e,8\trill d g,[ g]
+    h g d' h <g d' f> e' r4
+    r r8 c <e c g>^\critnote f r4 %45
+    r8 \once \slurDashed gis32(\pE a16.) g32( f16.) e32( d16.) \appoggiatura c16 h8. c16 d( h) a( g)
+    c8( e) r16 c-\parenthesize-! g'( e) d8 f16( e) g( f e d)
+    e16.\f c'32 c16. c32 \tuplet 3/2 8 { c16[ h a] a g f e[ f g] a h c } d,8 h'
+    c, e16-!\ffE e,-! d'-! e,-! c'-! e,-! h'-!-\critnote e,-! e'-! e,-! h'-! e,-! e'-! e,-!
+    c'-! e,-! e'-! e,-! h'-! e,-! e'-! e,-! <a' c, e,>4 <gis h, e,> %50
+    a16 <c, e,>8 q16 h' <d, e,>8 q16 a' <c, e,>8 q16 gis' <h, e,>8 q16
+    <a' c, e,>8 <gis h, e,> e32([ d c h)] a( gis fis e) <e c' a'>8 <e h' gis'> r4
+    r4 a4.\p gis8 h4~
+    h8 a c2 h8 a
+    gis4 e'16.\f h32 gis16. e32 c'16. a32 h8 h'16. gis32 e16. h32 %55
+    \tuplet 3/2 8 { c16 h a } a'16. c,32 h8 gis' a,16. a,32 h16. c32 d16. e32 fis16. gis32
+    a8 c \tuplet 3/2 8 { c16 h c } c,-! c'-! \tuplet 3/2 8 { d c d } d,-! d'-! \tuplet 3/2 8 { e d e } e,-! e'-!
+    f8 a16( f) f( c) c( a) b( b') b( g) g( e) e( b)
+    b8.(\trill a32 b) a16. a'32 g16. f32 e16. d32 cis16. b32 a16. g32 f16. e32
+    f16 d'8 d d d16~ d f, e f g e' f, d' %60
+    f,8.(\trill e32 f) e4 f16. d'32 d16. d32 \tuplet 3/2 8 { d16[ d, e] f e d }
+    c16. es'32 es16. es32 \tuplet 3/2 8 { es16[ fis, g] a g fis } g16. g'32 g16. g32 \tuplet 3/2 8 { g16[ g, a] b a g }
+    \kneeBeam d16. a''32 a16. a32 \tuplet 3/2 8 { a16[ d,, e] fis e d } g16. b'32 b16. b32 \tuplet 3/2 8 { b16[ g, a] b a g }
+    c,16. b''32 b16. b,32 a16. a'32 a16. a,32 a8.(\trill g32 a) g16 c32( d e f g a)
+    b16. b,32 b16. b32 b16.(\trill a64 b) g'16. b,32 a16. f'32 f16. f32 \tuplet 3/2 8 { f16[ e d] d c b } %65
+    \tuplet 3/2 8 { a[ a' g] f e f } g,8 e' f,16. a32 b16. c32 d16. e32 f16. g32
+    a8 f16.^\critnote c32 a'16. f32 c'16. a32 a4\trill g16( e) b'( g)
+    g4\trill f16. d32 a16. f32 \tuplet 3/2 8 { d16[ d' e] f e d d' d, e f[ e d] }
+    \tuplet 3/2 8 { h'![ h,! c] d c h } c( a) a'( c,) c8.(\trill h32 c) h16. e,32 e'([ d c h)]
+    a16. a,32 c16. e32 a16. c32 e16. a32 \kneeBeam a16. a,,32 cis16. e32 a16. cis32 e16. a32 %70
+    \kneeBeam a16. a,,32 d16. f32 a16. d32 f16. a32 a16. a,32 a16. a32 a'16. a,32 g'16. a,32
+    f'16. d'32 d16. d32 d16. f,32 e16. c'32 e,8.(\trill d32 e) d4
+    <g h, d, g,>8 d32( c h a) g16. h32 d16. f32 e8 c32( d e f) g16. c,32 e16. g32
+    c8 g16. e32 g16. e32 c'16. e,32 e8 d r4
+    c,2\p d %75
+    es8 f g4. as8 g f
+    es f g4. as8 g f
+    es4 r d2~\pp
+    d4 c f2~
+    f4 es as2 %80
+    g f
+    R1
+    c'4. d8 es d c4~ \noBreak
+    c h!8( a) h4 r\fermata \bar "||"
+    \tempoEtVitam r2 r16 e\fE e, e' a a, a' c, \noBreak %85
+    h g d h g g' a, g' h, g' c, g' d g h, g'
+    c,4 r r16 e' e, e' d d, g' h,
+    c g e c d d' d, d' d, d' d, d' d, d' fis a
+    g d h g c4 r16 e e, e' a a, a' c,
+    h g d h g g' g, g' g, g' g, g' g, g' h d %90
+    c g f g e g c, g' h, d' d, d' g g, g' f
+    e c g e fis d' g, d' a d h d c a' a, c
+    h g h d g h, d g h g d h g' d h g
+    e' c g e c e g c e e e, e' a a, a'8
+    r16 d, d, d' g g, g'8 r16 c, a c fis c a' c, %95
+    h d g a h h, h' a g g, g' fis e e, e' d
+    c e a h c c, c' h a a, a' g fis fis, fis' e
+    d fis h c d d, d' c h h, h' a g g, g' fis
+    e g g g g e g g g g a, g' d,8 fis'
+    g,4 r r16 g'\p g, g' a a, a'8 %100
+    r16 fis fis, fis' g g, g'8 r16 e e, e' fis fis, fis'8
+    r16 g g, g' g g, g'8 r16 g g, g' g g, g'8
+    r16. e32 d16. c32 h8 a\trill g4 r
+    r16h\f d g h g d h c g e c d d' d, d'
+    d, d' d, d' c a' a c, h h' h, a g g' g, f! %105
+    e g c e d d, d d h' g, g g g g' g, g'
+    g, g' g, g' g, g' h g c e e e e, e' fis, e'
+    gis, e' a, e' h h' h d, c a' a a cis, a' d, a'
+    e a f a g a, a g' f d d d fis, d' g, d'
+    a d h d c a' a c, h g' g g g, g' a, g' %110
+    h, g' c, g' d f! f g, e' c g e c c' e, e'
+    a a, a'8 r16 d, d, d' g g, g'8 r16 c, c, c'
+    f f, f' f f d, f' f e c' e, e f d' e, c'
+    d,4 r r16 g, h d g g, g' f
+    e c g e c c' d, c' e, g a h c c, c' c %115
+    h g' g g g, g' a, g' h, g' c, g' d f f g,
+    e' c g e c c' e g c c, c'8 r16 c,, e f
+    g g, g' g g g, g' g fis d' g, d' a d h d
+    c a a' c, h g' g, g' a a, a'8 r16 f! f, f'
+    g g, g'8 r16 e e, e' f f, f'8 r16 d d, d' %120
+    e e, e'8 r16 c' c, c' d, c' c c d, h' h h
+    c,4 r r16 c'\p c, c' d d, d'8
+    r16 h h, h' c c, c'8 r16 a a, a' h h, h'8
+    r16 c c, c' c c, c'8 r16 c c, c' c c, c'8
+    r16. a32 g16. f32 e8 d\trill c32(\f d e f g a h c) d,8 h' %125
+    c32( h a g f e d c) d8 h' c,4 r\fermata \bar "|." %126 finis
+  }
+}
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    c''2\fE c4 g8.\p gis16
+    a16. h,32 c16. e32 \appoggiatura g,8 f4\trill <e c'>4\f q
+    r16 c''( e, c') r c( e, c') r \once \slurDashed c( d, c') r h( g d) \noBreak
+    r c( a c) fis( a) a,( c) \parOn h-\parenthesize-! g-! d-! \parOff h-\parenthesize-! g4\fermata \bar "||"
+    \tempoPleni g16 g' a, g' h, g' g, g' c, c' d, c' e, c' c, c' \noBreak %5
+    a, c f a h, d g, h c c' g c e, c' c, c'
+    f, c' a f d a' f d h g' g, g' c, c' e, c'
+    a, c f a h, d g, d' c c' d, c' e, c' f, c'
+    g, g' h g e c' c, c' g c f, c' g8 g,
+    c4 r8 c' b16 c, c c c b' b b %10
+    a f c' a f' c a' a, c d, d d d c' c c
+    h! g d' h g' d h d f! g, g g g f' f f
+    e c, c c c-! c'-! \tuplet 3/2 8 { e[ d c] } c' c, h' c, a' c, g' c,
+    f d d' f, e c' g e d c' d, c' d, h' d, h'
+    c c, c c c c, e g b c, c c c b' b b %15
+    a( c f a) b( g e b) a( f) c'( a) b( g) e( c)
+    a' c, c c b' c, c c a'2
+    g1\fermata \bar "|." %18 finis
   }
 }

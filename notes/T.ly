@@ -533,3 +533,204 @@ EtIncarnatusTenoreLyrics = \lyricmode {
   pas -- sus et se --
   pul -- tus est. %40 finis
 }
+
+EtResurrexitTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoEtResurrexit
+      \set Score.currentBarNumber = #41
+    \mvTr c,4\fE^\tuttiE e8 g c4 c
+    c h16([ a)] g([ f)] e8 c r c'
+    c4 d8 c c h r4
+    r r8 d d c r4
+    r r8 c c c r4 %45
+    c2\p d
+    e f
+    e8\f e16 e c8 c16 c c4( h)
+    c r8 c h8. h16 h8 h
+    c c h h c8. c16 h4 %50
+    c d c h
+    c8 h r4 a8 gis r4
+    r c4.(\pE h8) d4~
+    d8[ c] e2 d8([ c)]
+    h4 e8\f e e e r e %55
+    e e e4 e r
+    e4.^\critnote e8 g b,16 b b8 b
+    a8. a16 a4 b8 b c c
+    c4 c a4. a8
+    a a a a b4 b8 b %60
+    a4 a a4. a8
+    a4 a8 a b8. b16 b4
+    a8 a a a g4 g8 g
+    g c c c c4 c
+    c8 c c c c4 d8 d %65
+    c2 c4 r
+    r8 c c c c4 e8 a,
+    a8. a16 a4 r8 a h! h
+    h8. h16 a8 a a8. gis16 gis8 gis
+    a8. a16 a4 a a8 a %70
+    a4 a a8 a a a
+    a a d c! c4 h
+    r h8 h c4 c
+    c8. c16 c8 c c h r4
+    R1*7 %81
+    c2.\p h!4
+    c2~ c8[ d] es4~ \noBreak
+    es d8[ c] d4 r\fermata \bar "||"
+    \tempoEtVitam R1*2 %86
+    r4 g,\fE g' h,
+    r8 c fis, g a h16 h c4
+    h8.[ a16 g8. f!16] e8[ g] c4
+    h g8([ a] h[ c] d4) %90
+    c r8 c_( h8.[ a16] g8[ a16 h])
+    c4 d8[( c16 h] a8[ g] fis4)
+    g8 d'4 h g a16[ h]
+    c8[ g] c8.[ d16] e8[ c] a[ h16 c]
+    d8 h4 e c8 d4 %95
+    d h8.([ a16] g2)
+    a4 c8.([ h16] a2)
+    h4 d8.([ c16] h2)
+    c4 e( d2)
+    d4 r r2 %100
+    R1*6 %106
+    r2 r8 e4 d16[ c]
+    h8[ a] gis4 a a8([ h]
+    cis[ d] e4) d8 d4 c16[ h]
+    a8[ g] fis4 g8 g' h, c %110
+    d e16 e f4 e c~
+    c h2 \once \tieDashed a4~
+    a^\critnote g g g
+    g r r2
+    R1*2 %116
+    r2 g4 g'
+    h, r8 c fis, g a h16 h
+    c4 h c d
+    h c a h %120
+    g1
+    g4 r r2
+    R1*2
+    r2 c8 c c([ h)] %125
+    c4 h c r\fermata \bar "|." %126 finis
+  }
+}
+
+EtResurrexitTenoreLyrics = \lyricmode {
+  Et re -- sur -- re -- xit %41
+  ter -- ti -- a di -- e se --
+  cun -- dum Scri -- ptu -- ras,
+  in coe -- lum,
+  in coe -- lum, %45
+  se -- det,
+  se -- det,
+  se -- det ad dex -- te -- ram Pa --
+  tris. Et i -- te -- rum ven --
+  tu -- rus est cum glo -- ri -- a %50
+  iu -- di -- ca -- re
+  vi -- vos, vi -- vos
+  et __ mor --
+  _ tu --
+  os, cu -- ius re -- gni non %55
+  e -- rit fi -- nis.
+  Et in Spi -- ri -- tum San -- ctum,
+  Do -- mi -- num et vi -- vi -- fi --
+  can -- tem, qui ex
+  Pa -- tre Fi -- li -- o -- que pro -- %60
+  ce -- dit, qui cum
+  Pa -- tre et Fi -- li -- o
+  si -- mul ad -- o -- ra -- tur et
+  con -- glo -- ri -- fi -- ca -- tur:
+  qui lo -- cu -- tus est per Pro -- %65
+  phe -- tas.
+  Et u -- nam san -- ctam ca --
+  tho -- li -- cam et a -- po --
+  sto -- li -- cam Ec -- cle -- si -- am, con --
+  fi -- te -- or u -- num ba -- %70
+  ptis -- ma in re -- mis -- si --
+  o -- nem pec -- ca -- to -- rum.
+  Et ex -- pe -- cto
+  re -- sur -- re -- cti -- o -- nem
+
+  mor -- tu -- %82
+  o -- _
+  _ rum.
+
+  Et vi -- tam %87
+  ven -- tu -- ri sae -- cu -- li, a --
+  _ _ _
+  men, a -- %90
+  men, a --
+  men, a --
+  men, a -- _ _ _
+  _ _ _ _
+  _ _ _ men, a -- %95
+  men, a --
+  men, a --
+  men, a --
+  men, a --
+  men. %100
+
+  A -- _ %107
+  _ _ men, a --
+  men, a -- _
+  _ _ men, ven -- tu -- ri %110
+  sae -- cu -- li, a -- men, a --
+  _ _
+  _ men, a --
+  men,
+
+  et vi -- %117
+  tam ven -- tu -- ri sae -- cu -- li,
+  a -- men, a -- _
+  _ _ _ _ %120
+  _
+  men,
+
+  a -- men, a -- %125
+  men, a -- men. %126 finis
+}
+
+SanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr c2\fE^\tuttiE c4 r
+    r2 c4 c
+    c c c8 c16 c h8 h \noBreak
+    c4. c8 d2\fermata \bar "||"
+    \tempoPleni r2 e4 e8 e \noBreak %5
+    e4 d2 c4~
+    c d2 c4~
+    c h8[ a] g2
+    g8. g16 g4 g2
+    g4 r8 c c2 %10
+    c4 r8 a a2
+    g4 h8 h d2
+    c4 c c c
+    h c c( h)
+    c r8 c c4. c8 %15
+    c4 c c c
+    c c c2
+    c1\fermata \bar "|." %18 finis
+  }
+}
+
+SanctusTenoreLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus Do -- mi -- nus De -- us
+  Sa -- ba -- oth.
+  Ple -- ni sunt %5
+  coe -- li et __
+  ter -- _
+  _ ra
+  glo -- ri -- a tu --
+  a. O -- san -- %10
+  na, o -- san --
+  na in ex -- cel --
+  sis, o -- san -- na
+  in ex -- cel --
+  sis, o -- san -- na %15
+  in ex -- cel -- sis,
+  in ex -- cel --
+  sis. %18 finis
+}

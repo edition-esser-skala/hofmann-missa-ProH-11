@@ -298,3 +298,110 @@ EtIncarnatusOboeII = {
     es4 d8. d16 c4 r\fermata \bar "||" %40 finis
   }
 }
+
+EtResurrexitOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #41
+    c4\fE e8 g c4 c
+    c h16 a g f e8 c r g'
+    g4 f16 g a8 g g r4
+    r r8 g g g r4
+    r r8 g g a r4 %45
+    f2\p g
+    g-\critnote g
+    g8\f g16 g a8 a16 a g2
+    g4 r8 e e8. e16 e8 e
+    e e e gis a8. a16 gis4 %50
+    a h a gis
+    a8 gis r4 e8 e r4
+    c2\p d
+    e f4. f8
+    e4 gis8\f gis a gis r gis %55
+    a a a gis a4 r
+    a4. a8 b g16 g g8 g
+    f8. f16 f4 d8 g g g
+    g4 f e4. e8
+    d d d d d4 e8 d %60
+    d4 cis d4. d8
+    es4 es8 es d8. d16 d4
+    d8 d d d d4 d8 d
+    g g f! f f4 e
+    g8 g g g f4 f8 f %65
+    f4 e f r
+    r8 a a a a4 g8 g
+    g8. f16 f4 r8 f f f
+    e8. e16 e8 e e8. e16 e8 e
+    e8. e16 e4 e e8 e %70
+    f4 f e8 a a a
+    a a g g g4 g
+    r g8 g g4 g
+    g8. g16 g8 g g g r4
+    R1*7 %81
+    r2 d4.\pE d8
+    es f g2 fis4 \noBreak
+    g2. r4\fermata \bar "||"
+    \tempoEtVitam R1*4 %88
+    r4 c,\fE c' fis,
+    r8 g g c, d e16 e f4 %90
+    e r r8 d g8. f16
+    e4 d8 e fis g a4
+    g8 h4 g d g8
+    g4 g2 a4~
+    a g2 fis4 %95
+    g d e2
+    e4 e fis2
+    fis4 fis g2
+    g4 g2 fis4
+    g r r2 %100
+    R1*3
+    r4 g8. f!16 e4 d8 e
+    fis g a4 g8.[ f16 e8. d16] %105
+    c d e8 d4 d8 d16 c d8 e
+    f! e d4 e e8 fis
+    gis a h4 a8 a e-\critnote d
+    e f!16 f g4 f d8 e
+    fis g a4 g r %110
+    r g g g
+    a2 g
+    f e8 e f e
+    d4 r r2
+    c4 c' e, r %115
+    r8 g g c, d e16 e f4
+    e r r r16 c e f
+    g4. f16 e d4 r
+    r g a2
+    g f %120
+    e4. d16 c d2
+    e4 r r2
+    R1*2
+    r2 g4\fE g %125
+    g g g r\fermata \bar "|." %126 finis
+  }
+}
+
+SanctusOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    g'2\fE g4 r
+    r2 g4 g
+    g a a8 a16 a g8 g \noBreak
+    g4 fis g2\fermata \bar "||"
+    \tempoPleni R1 \noBreak %5
+    r2 g4 g8 g
+    g4 f f e8 e
+    e4 d8 d d4 c
+    g'8. g16 g4 g2
+    g4-\critnote r8 g g2 %10
+    f4 r8 f d2
+    d4 d8 d g2
+    g4 g a a8 g
+    f4 g g2
+    g4 r8 g g4. g8 %15
+    f4 g f e
+    f g f2
+    e1\fermata \bar "|." %18 finis
+  }
+}

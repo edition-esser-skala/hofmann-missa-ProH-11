@@ -181,3 +181,69 @@ CredoTimpani = {
     R1\fermata \bar "||" %29 finis
   }
 }
+
+EtResurrexitTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #41
+    c4\fE r c c8. c16
+    c8 c16 c g8 g c4 r8 c
+    c4 r g8 g r4
+    r r8 g16 g g8 c r4
+    R1*3 %47
+    c4\fE r r8 g16 g g8 g
+    c4 r r2
+    R1*23 %72
+    r4 g8\fE g16 g c4 c
+    c8. c16 c8 c g g r4
+    R1*9 \noBreak %83
+    R1\fermata \bar "||"
+    \tempoEtVitam R1*8 %92
+    r4 g8.\fE g16 g4 g8. g16
+    c4 c8. c16 c4 r
+    R1 %95
+    g4 r r2
+    R1*3
+    g4 r r2 %100
+    R1*4
+    r2 r4 c8.\fE c16 %105
+    c4 r r2
+    R1*6 %112
+    r2 r8 c g c
+    g4 r r2
+    r r4 c8 c16 c %115
+    g4 r r2
+    c4 c8. c16 c8 c16 c c8 c
+    g4 r r2
+    R1*2 %120
+    g4 g8. g16 g8 g16 g g8 g
+    c4 r r2
+    R1*2
+    r2 c4\fE g8. g16 %125
+    c4 g8. g16 c4 r\fermata \bar "|." %126 finis
+  }
+}
+
+SanctusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSanctus
+    c8.[\fE c16 c8. c16] c4 r
+    r2 c8. c16 c4
+    R1 \noBreak
+    r2 g8 g16 g g4\fermata \bar "||"
+    \tempoPleni R1*3 %7
+    r2 c4 r
+    g c8. c16 g4 g
+    c r r2 %10
+    R1
+    r2 g8 g16 g g8 g
+    c4 r r2
+    r4 c g g8. g16
+    c4 r r2 %15
+    R1
+    r4 c8. c16 c4 c
+    c1\fermata \bar "|." %18 finis
+  }
+}
