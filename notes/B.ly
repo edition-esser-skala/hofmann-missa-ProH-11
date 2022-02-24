@@ -728,3 +728,64 @@ SanctusBassoLyrics = \lyricmode {
   in ex -- cel --
   sis. %18 finis
 }
+
+BenedictusBasso = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \autoBeamOff \tempoBenedictus
+    R1*10 %10
+    \mvTr f4.\fE^\tuttiE f8 b f r f
+    b f r f b a16 a g8 c,
+    f4 r8 d' h c r c
+    a h r h g a r a
+    f f16 f g8. g16 c,4 r %15
+    R1*7 %22
+    c4. c8 f c r c
+    f c r e f e16 e d8 g,
+    c4 c'8 a fis4 g8 g %25
+    e4 f8 f e e16 e f8. f16
+    c4 r f4. f8
+    b f r f b f r f
+    b a16 a g8 c, f4 r8 d'
+    b g16 b c8 b16 c a g f8 r b %30
+    g e16 g a8 g16 a f e d8 r g
+    e c16 e f8 b,16 b c4. c8
+    f4 e f8 f16 f c8. c16
+    f,4 r r2
+    R1*6 %40
+    r4 r8 \tempoOsanna f' c' c, r c16 c
+    f8 f r4 r2
+    r8 g e c f f g4
+    c, r8 c f c r c16 c
+    f8 c c e f2
+    c1\fermata \bar "|."
+  }
+}
+
+BenedictusBassoLyrics = \lyricmode {
+  Be -- ne -- di -- ctus, qui %11
+  ve -- nit in no -- mi -- ne Do -- mi --
+  ni, qui ve -- nit, qui
+  ve -- nit, qui ve -- nit in
+  no -- mi -- ne Do -- mi -- ni. %15
+
+  Be -- ne -- di -- ctus, qui %23
+  ve -- nit in no -- mi -- ne Do -- mi --
+  ni, be -- ne -- di -- ctus, qui %25
+  ve -- nit in no -- mi -- ne Do -- mi --
+  ni. Be -- ne --
+  di -- ctus, qui ve -- nit in
+  no -- mi -- ne Do -- mi -- ni, qui
+  ve -- nit in no -- mi -- ne Do -- mi -- ni, qui %30
+  ve -- nit in no -- mi -- ne Do -- mi -- ni, qui
+  ve -- nit in no -- mi -- ne Do -- mi --
+  ni, in no -- mi -- ne Do -- mi --
+  ni.
+
+  O -- san -- na in ex -- %41
+  cel -- sis,
+  o -- san -- na in ex -- cel --
+  sis, o -- san -- na in ex --
+  cel -- sis, in ex -- cel -- %45
+  sis. %46 finis
+}

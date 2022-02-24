@@ -441,3 +441,108 @@ SanctusViolinoII = {
     g1\fermata \bar "|." %18 finis
   }
 }
+
+BenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoBenedictus
+    R1*2
+    r8 r16. d'32\f d8( c16.) b32 \appoggiatura b a16([ g32 f)] \appoggiatura g f16( e32 d) c8 b\trill
+    a4 r16 f'\p \once \slurDashed a( g) f8 r r4
+    r r16 c \once \slurDashed e( d) c8 r r4 %5
+    R1
+    r4 c16\f g'8 f16 f8\trill e r4
+    r8 a,4\p a'8 b b,4 b'8
+    a a,4 r8 r f'4 e8
+    f4 r r8 f4 e8 %10
+    f f4\f f8 f f r f
+    f f r f4 f e8
+    f4 r8 a g g r g
+    f f r f e e r e
+    d d d8. d16 e4 c16 c-!\p e-! d-! %15
+    c8 r r4 r r16 g-! h-! a-!
+    g8 r r4 r2
+    r r4 g16\f d'8 c16
+    c8 h r4 r8 c\p c c
+    c c c c c c c r %20
+    r c4 h8 c r r4
+    r8 g' g g g c4 h8
+    c4.\fE e,8 f e r e
+    f e r c4 c h8
+    c4 g'8 a a4 g8 g %25
+    g4 f8 f g g16 g f8. f16
+    e4 r8 e\p f4.\f f8
+    f f r f f f r f
+    f f16 f f8 e f4 r8 a
+    g2 f4 r8 f %30
+    e2 d4 r8 d
+    g4 f8 f f4 e8. e16
+    f4 g f8 f16 f f8 e
+    f4 r16 \parOn f-\parenthesize-!\p a-! \parOff g-\parenthesize-! f8 r r4
+    r r16 \parOn c-\parenthesize-! e-! \parOff d-\parenthesize-! c8 r r4 %35
+    R1
+    r4 c16\f g'8 f16 f8 e r4
+    r8 a,4\pE a'8 b b,4 b'8
+    a a,4 r8 r f'4 e8
+    f4 r r8 f4 e8 %40
+    f[ c <f a,>] \tempoOsanna f\f f e \tuplet 3/2 8 { g'16[ e f] g e b }
+    b8\trill a r f f'16 f, e' e, d' d, c' c,
+    h' h, h' h, c' c, \tuplet 3/2 8 { e'[ d c] a' g f e[ d c] } d,8 h'
+    c, \tuplet 3/2 8 { c'16[ d c] e[ f e] } g16. b,32 a8\trill g \tuplet 3/2 8 { g'16[ e f] g e b! }
+    a8\trill g e g f2 %45
+    e1\fermata \bar "|." %46 finis
+  }
+}
+
+BenedictusViolinoIIOssia = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoBenedictus
+    f'4.(\f g16 e) \slurDashed f( c) c8~ c16 f( a c)
+    d,16.( c64 b) \slurSolid c8 f4~ f16 d g f e( f g b,)
+    a8 \appoggiatura d32 c( h c d) c16 c b'( g) a( e f c) \appoggiatura c32 b16( a32 b) c16[ b]
+    a f e f a f c' a f' c a'8~ a16 f c'( a)
+    g e h c h c e g b8 b~ b16 e, g b, %5
+    a c f8~ f16 es d cis d4. d8
+    a g g a f e e f16 g
+    a8 a a a b b b b
+    a a a a g'16( e f a) g4\trill
+    f16[ f] \appoggiatura g32 f16 e32 f a16 f d h c b a f' g, f' g, e' %10
+    f,8 f4 f8 f f r f
+    f f r f4 f e8
+    f4 r8 a g g r g
+    f f r f e e r e
+    d d d d e g16 c e g, c e %15
+    g8~ g32 e( dis e) g16( e c g) f[ d'] \appoggiatura e32 d16 cis32 d f16( d cis d)
+    f8~ f32 d cis d \tuplet 3/2 8 { f16 d h } g[ f] e e g c e d c b?
+    a a' e f cis d a a^\critnote e8 d d e
+    c h h c16 d e c e c e c e c
+    f c f c f c f c e c e c e c g' c %20
+    d,8 c'4 h8 c16 c'( d c h a g fis)
+    g f d4 d8 c4 e,8 d
+    e4. e8 f e r e
+    f e c c4 c h8
+    c4 g'8 a a4 g8 g %25
+    g4 f8 f g g16 g f8. f16
+    e c e e f fis g gis a8 f4 f8
+    f f r f f f r f
+    f f16 f f8 e f4 r8 a
+    g2 f4 r8 f %30
+    e2 d4 r8 d
+    g4 f8 f f4 e8. e16
+    f4 g f8 f16 f f8 e
+    f16 f e f a f c' a f' c a'8~ a16 f c' a
+    \slurDashed g( e h c) h( c e g) \slurSolid b8 b~ b16 e, g b, %35
+    a c f8~ f16 es d cis d8 d4 d8^\critnote
+    a g g f f e e f16 g
+    a8 a a a b b b b
+    a a a a g'16 e f a g4\trill
+    f16[ f] \appoggiatura g f16 e32 f a16 f d h c b a f' g, f' g, e' %40
+    f,8[ c <f a,>] \tempoOsanna f\f f e \tuplet 3/2 8 { g'16[ e f] g e b }
+    b8\trillE a r f f'16 f, e' e, d' d, c' c,
+    h' h, h' h, c' c, \tuplet 3/2 8 { e'[ d c] a' g f e[ d c] } d,8 h'
+    c, \tuplet 3/2 8 { c'16[ d c] e[ f e] } g16. b,32 a8\trill g \tuplet 3/2 8 { g'16[ e f] g e b! }
+    a8\trill g e g f2 %45
+    e1\fermata \bar "|." %46 finis
+  }
+}
