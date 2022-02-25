@@ -546,3 +546,237 @@ BenedictusViolinoIIOssia = {
     e1\fermata \bar "|." %46 finis
   }
 }
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \dorian \time 2/4 \tempoAgnus
+    c16.\p es32 g16. c32 c8([ h16) r32 f']-!
+    es16. c32 g'16. c,,32 c8([ h16) r32 f']-!
+    es8 r r4
+    r8 r16. g32\f c16. g32 es16. c32
+    c16.\p f32 as16. c32 d,8 r %5
+    b16. es32 g16. b32 c,8 r
+    as16. d32 f16. as32 h,8 r
+    r4 g'8 g
+    g16(-. g-. g-. g-.) g(-. g-. g-. g-.)
+    as(-. as-. as-. as-.) as(-. as-. as-. as-.) %10
+    b!(-. b-. b-. b-.) b(-. b-. b-. b-.)
+    as8 r r4
+    r8 g,( a! h)
+    c r r4
+    r16 d(-. d-. d-.) c8 r %15
+    R2
+    c16\f es' es es es( c) c( es,)
+    as, c' c c c( as) as( es)
+    f( as) as( c) fis,( c') c( es,)
+    es8\trill d g16 g g g %20
+    as as as as d, d d d
+    es es es es g g g g
+    ges ges ges ges ges ges ges ges
+    f f f f f f f f
+    es8 g16. b32 es16. b32 g16. es32 %25
+    c'16.\p es32 as16. c32 f,,8 r
+    b16. d32 g16.^\critnote b32 es,,8 r
+    as16. c32 f16. as32 d,,8 r
+    r4 b'8 b
+    b16 b b b b b b b %30
+    c c c c f, f f f
+    g8 r r4
+    R2
+    es'8\f g16( es) es( g,) g( es)
+    es8\trill d f'16( d) as( f) %35
+    f8\trill es es16( g) b( es)
+    es es, es es es es es es
+    es8\trill d d d
+    d16 d d d d d d d
+    es es es es es es es es %40
+    as as as as a a a a
+    g es es es d d d d
+    c16.\p es32 g16. c32 c8([ h16) r32 f']-!
+    es16. c32 g'16. c,,32 c8([ h16) r32 f']-!
+    es8 r r4 %45
+    r c16\f g' g g
+    f f f f f f f f
+    es es es es es es es es
+    es es' es es es es es es
+    es es, es es es-\critnote es es es %50
+    es8.(\trill d32 es) d4
+    \slurDashed g16(-.\p g-. g-. g-.) g(-. g-. g-. g-.)
+    as(-. as-. as-. as-.) as(-. as-. as-. as-.)
+    b!(-. b-. b-. b-.) b(-. b-. b-. b-.) \slurSolid
+    as8 r r4 %55
+    r8 \once \slurDashed g,( a! h)
+    c r r4
+    r16 f(-. f-. f-.) es8 r
+    R2
+    R\fermata \bar "||" %60 finis
+  }
+}
+
+AgnusViolinoIIOssia = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \dorian \time 2/4 \tempoAgnus
+    c16.\f es32 g16. c32 c8([ h16) r32 f']-!
+    es16. c32 g'16. c,,32 c8([ h16) r32 f']-!
+    es16. es'32 g16. c,32 d16. d32 f16. h,32
+    c16. c32 es16. g,32 c16. g32 es16. c32
+    d8 r as''16. f32 d16. as32 %5
+    g8 r g'16. es32 c16. g32
+    f8 r f'16. d32 h16. f32
+    es8 d g g
+    \slurDashed g16(-. g-. g-. g-.) g(-. g-. g-. g-.)
+    as(-. as-. as-. as-.) as(-. as-. as-. as-.) %10
+    b!(-. b-. b-. b-.) b(-. b-. b-. b-.) \slurSolid
+    c8 c4 c8
+    c16 c \once \slurDashed h32([ c d c)] f16 a,! h d
+    f d es^\critnote es~ es des8 c16
+    h8.( c32 d) c8 c %15
+    c~ \tuplet 3/2 8 { c16 as f } es8 d
+    es16 es' es es es( c) c( es,)
+    as, c' c c c( as) as( es)
+    \slurDashed f( as) as( c) fis,( c') c( es,) \slurSolid
+    es8\trill d g16 g g g %20
+    as as as as d, d d d
+    es es es es g g g g
+    ges ges ges ges ges ges ges ges
+    f f f f f f f f
+    es8 g16. b32 es16. b32 g16. es32 %25
+    c8 r as''16. f32 d16. as32
+    b8 r g'16. es32 b16. g32
+    as8 r f'16. d32 b16. f32
+    es8 d b' b
+    b16 b b b b b b b %30
+    c c c c b b as g
+    g8 g as b
+    es, c'16. as32 g8 f
+    g \once \slurDashed g'16( es) es( g,) g( es)
+    es8\trill d \slurDashed f'16( d) as( f) \slurSolid %35
+    f8\trill es es16( g) b( es)
+    es es, es es es es es es
+    es8\trillE d d d
+    d16 d d d d d d d
+    es es es es es es es es %40
+    as as as as a a a a
+    g es es es d d d d
+    c16. es32 g16. c32 c8([ h16) r32 f']-!
+    es16. c32 g'16. c,,32 c8([ h16) r32 f']-!
+    es16 es' g c, d d f h, %45
+    c g es g c, g' g g
+    f f f f f f f f
+    es es es es es es es es
+    es es' es es es es es es
+    es es, es es es es es es %50
+    es8.(\trill d32 es) d4
+    \slurDashed g16(-. g-. g-. g-.) g(-. g-. g-. g-.)
+    as(-. as-. as-. as-.) as(-. as-. as-. as-.)
+    b!(-. b-. b-. b-.) b(-. b-. b-. b-.) \slurSolid
+    c8 c4 c8 %55
+    c16[ c] h32( c d c) f16 a,! h d
+    f d es \once \tieDashed es~ es des8 c16
+    h8.( c32 d) c8 d
+    es16 es f g as f d c
+    c8\trillE h r4\fermata \bar "||" %60 finis
+  }
+}
+
+DonaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoDona
+      \set Score.currentBarNumber = #61
+    c'8-!\fE c,-! c'8.(\trill h32 c) e8-! c-!
+    a'-! a,-! a'8.(\trill g32 a) c8-! a-!
+    g-! g,-! g'8.(\trill f32 g) c8-! e,-!-\critnote
+    f-! f,-! f'8.(\trill e32 f) a8-! f-!
+    e-! e,-! g'8.(\trill f32 g) c8-! e,-! %65
+    d-! d,-! f'8.(\trill e32 f) g8-! g,-!-\critnote
+    c-! c,-! c'8.(\trill h32 c) g'8-! g,-!
+    e'-! e,-! e'8.(\trill d32 e) c'8-! e,-!
+    d-! d,-! d'8.(\trill c32 d) g8-! h,-!
+    c-! c,-! e'8.(\trill d32 e) c'8-! e,-! %70
+    a-! a,-! fis'8.(\trill e32 fis) g8-! g,-!
+    e-! e'-! d8.(\trill cis?32 d) a'8-! fis-!
+    g-! g,-! h8.(\trill a32 h) g'8-! h,-!
+    c-! c,-! c'8.(\trill h32 c) g'8-! e,-!
+    f'-! d,-! f'8.(\trill e32 f) d'8-! f,-! %75
+    e-! e,-! c'8.(\trill h32 c) g'8-! g,-!
+    a'-! a,-! a'8.(\trill g32 a) f8-! f,-!
+    g'-! g,-! h'8.(\trill a32 h) c8-! c,-!
+    a'-! a,-! h8.(\trill a32 h) g'8-! h,-!
+    c-! c,-! e'8.(\trill d32 e) g8-! g,-! %80
+    c-! c,-! c'8.(\trill h32 c) a'8-! c,-!
+    h-! g,-! h'8.(\trill a32 h) g'8-! g,-!
+    e'-! e,-! e'8.(\trill d32 e) c'8-! e,-!
+    d-! d,-! fis'8.(\trill e32 fis) g8-! g,-!
+    e'-! e,-! fis'8.(\trill e32 fis) a8-! c,-! %85
+    h-! g,-! h'8.(\trill a32 h) g'8-! g,-!
+    e'-! e,-! e'8.(\trill d32 e) c'8-! c,-!
+    d-! d,-! d'8.(\trill c32 d) g8-! g,-!
+    c-! c,-! c'8.(\trill h32 c) g'8-! cis,-!
+    d-! d,-! fis'8.(\trill e32 fis) g8-! g,-! %90
+    a'-! a,-! c8.(\trill h32 c) a'8-! fis-!
+    g-! g,-! g'8.(\trill fis32 g) d'8-! d,-!
+    e-! c,-! e'8.(\trill d32 e) c'8-! e,-!
+    d-! h,-! d'8.(\trill c32 d) h'8-! d,-!
+    c-! a,-! c'8.(\trill h32 c) a'8-! c,-! %95
+    h-! g,-! h'8.(\trill a32 h) g'8-! g,-!
+    a'-! a,-! a'8.(\trill g32 a) d8-! d,-!
+    h'-! g,-! g'8.(\trill fis32 g) h,8-!-\critnote g'-!
+    e-! c,-! c'8.(\trill h32 c) c'8-! c,-!
+    h-! g,-! h'8.(\trill a32 h) g'8-! g,-! %100
+    e'-! e,-! e'8.(\trill d32 e) c'8-! e,-!
+    d-! d,-! fis'8.(\trill e32 fis) g8-! g,-!
+    g'-! a,-! fis'8.(\trill e32 fis) a8-! c,-!
+    h-! g,-! h'8.(\trill a32 h) g'8-! h,-!
+    c-! c,-! c'8.(\trill h32 c) g'8-! e,-! %105
+    f'-! d,-! f'8.(\trill e32 f) d'8-! f,-!
+    e-! c,-! c'8.(\trill h32 c) g'8-! g,-!
+    a'-! a,-! a'8.(\trill g32 a) f8-! f,-!
+    d'-! d,-! e'8.(\trill d32 e) c'8-! e,-!
+    d-! d,-! d'8.(\trill c32 d) g8-! h,-! %110
+    c-! c,-! c'8.(\trill h32 c) c'8-! fis,?-!
+    g-! g,-! g'8.(\trill fis32 g) d8-! d,-!
+    c'-! c,-! c'8.(\trill h32 c) g'8-! cis,-!
+    d-! d,-! fis'8.(\trill e32 fis) g8-! g,-!
+    a'-! a,-! a'8.(\trill g32 a) d8-! d,-!
+    g-! g,-! d'8.(\trill c32 d) h'8-! h,-!
+    a'-! a,-! c8.(\trill h32 c) a'8-! a,-!
+    f'-! f,-! f'8.(\trill e32 f) d'8-! f,-!
+    e-! c,-! e'8.(\trill d32 e) c'8-! e,-!
+    d-! d,-! d'8.(\trill c32 d) a'8-! d,-!
+    gis-! e,-! gis'8.(\trill fis32 gis) a8-! a,-!
+    e'-! e,-! e'8.(\trill dis32 e) h'8-! h,-!
+    a'-! a,-! e'8.(\trill d32 e) a8-! a,-!
+    f'-! d,-! f'8.(\trill e32 f) a8-! a,-!
+    g'-! g,-! d'8.(\trill c32 d) g8-! g,-!
+    e'-! c,-! c'8.(\trill h32 c) g'8-! g,-!
+    f'-! f,-! c'8.(\trill h32 c) f8-! f,-!
+    d'-! d,-! d'8.(\trill c32 d) f8-! f,-!
+    e'-! e,-! h'8.(\trill a32 h) e8-! e,-!
+    c'-! c,-! c'8.(\trill h32 c) f8-! f,-!
+    d'-! d,-! d'8.(\trill c32 d) g8-! g,-!
+    c-! c,-! c'8.(\trill h32 c) e8-! e,-!
+    a'-! a,-! a'8.(\trill g32 a) f8-! f,-!
+    e'-! e,-! c'8.(\trill h32 c) e8-! e,-!
+    a'-! a,-! a'8.(\trill g32 a) c8-! a-!
+    g-! g,-! g'8.(\trill f32 g) c8-! c,-!
+    a'-! a,-! c8.(\trill h32 c) a'8-! a,-!
+    h-! g,-! h'8.(\trill a32 h) e8-! e,-!
+    a'-! a,-! d8.(\trill c32 d) g8-! h,-!
+    c-! c,-! c'8.(\trill h32 c) g'8-! c,-!
+    a'-! a,-! f'8.(\trill e32 f) a8-! c,-!
+    h-! g,-! d''8.(\trill c32 d) g8-! g,-!
+    e'-! e,-! e'8.(\trill d32 e) c'8-! e,-!
+    c'-! d,-! d8.(\trill c32 d) h'8-! d,-!
+    c-! c,-! g'-! g,-! c'-! c,-!
+    a'-! a,-! d'-! d,-! h'-! h,-!
+    e'-! e,-! c'-! c,-! a''-! a,-!
+    f'-! f,-! d'-! d,-! e'-! e,-!
+    d'-! c'-! d,8.(\trill c32 d) h'8-! d,-!
+    c-! c,-! c'8.(\trill h32 c) g'8-! g,-!
+    e'-! \tuplet 3/2 8 { g16 a h } c8-! e,-! d-! h'-!
+    c,4 r r\fermata \bar "|."
+  }
+}

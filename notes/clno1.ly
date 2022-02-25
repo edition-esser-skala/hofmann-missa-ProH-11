@@ -313,3 +313,77 @@ BenedictusClarinoI = {
     c1\fermata \bar "|." %46 finis
   }
 }
+
+DonaClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoDona
+      \set Score.currentBarNumber = #61
+    R2.*13 %73
+    c'4\fE r r
+    R2. %75
+    e4 r r
+    R2.
+    d4 r r
+    r d2
+    e4 r r %80
+    R2.
+    d4 r r
+    e2 e4
+    \pao d r r
+    r fis2 %85
+    g4 r r
+    e2 e4
+    d r r
+    R2.*2 %90
+    r4 r fis
+    g r r
+    e2 r4
+    R2.*2 %95
+    g2.~
+    g4 g fis
+    g r r
+    e2 e4
+    d r r %100
+    e2.
+    \pao d4 r r
+    r fis2
+    g4 d2
+    e4 r r %105
+    R2.
+    e4 r r
+    r r \once \tieDashed f~
+    f e2
+    d r4 %110
+    R2.
+    d4 r r
+    R2.*9 %121
+    r4 e e8 e
+    e2 r4
+    R2.
+    d2 d4 %125
+    e2 r4
+    R2.*4 %130
+    d4 d d
+    e2 r4
+    R2.
+    c4 c c
+    c2 c4 %135
+    c r r
+    R2.
+    r4 r e
+    f g2
+    g4 r r %140
+    R2.
+    d
+    e
+    d
+    c4 r r %145
+    R2.*2
+    r4 r e
+    d d2
+    c4 r d %150
+    e r d
+    c r r\fermata \bar "|." %152 FINIS
+  }
+}

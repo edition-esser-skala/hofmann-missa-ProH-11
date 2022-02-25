@@ -803,9 +803,227 @@ BenedictusSopranoLyrics = \lyricmode {
   sis. %46 finis
 }
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
+AgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 2/4 \autoBeamOff \tempoAgnus
+    R2*16 %16
+    \mvTr c'4.\fE^\tuttiE c8
+    c4 c8 c
+    c c16 c c8 c
+    c h g g %20
+    as4 h
+    c^\critnote c
+    c4. c8
+    b!2
+    b4 r %25
+    R2*8 %33
+    es4. g,8
+    g f r as %35
+    as g r g
+    ges ges16 ges ges8 ges
+    ges f b b
+    h4 h
+    c4. c8 %40
+    c4 c
+    c( h)
+    c r
+    R2*2 %45
+    r4 es8 es
+    es4 d8 d
+    d4 c8 c
+    c4 c8 c
+    c4. c8 %50
+    c4 h
+    R2*8 %59
+    R2\fermata \bar "||" %60 finis
+  }
+}
+
+AgnusSopranoLyrics = \lyricmode {
+  A -- gnus %17
+  De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di: Mi -- se -- %20
+  re -- re,
+  mi -- se --
+  re -- re
+  no --
+  bis. %25
+
+  A -- gnus %34
+  De -- i, qui %35
+  tol -- lis, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di: Mi -- se --
+  re -- re,
+  mi -- se -- %40
+  re -- re
+  no --
+  bis.
+
+  A -- gnus %46
+  De -- i, qui
+  tol -- lis pec --
+  ca -- ta, pec --
+  ca -- ta %50
+  mun -- di: %51 finis
+}
+
+DonaSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoDona
+      \set Score.currentBarNumber = #61
+    R2.*19 %79
+    \mvTr g'2\fE^\tutti g4 %80
+    c2 c4
+    h2 g4
+    e'2.
+    d4 r g~
+    g fis8[ e d c] %85
+    h4 g r
+    r8 c16[ d] e8[ c e fis]
+    g4 g,4. a16[ h]
+    c2 cis4
+    d8[ a d c] h4 %90
+    a2.
+    g8 g16[ a] h8[ g h d]
+    e2.
+    d
+    c %95
+    h4 r r
+    R2.
+    g2 g4
+    c2 c4
+    h2 g4 %100
+    e'2.
+    d4 r g~
+    g fis8[ e d c]
+    h4 g h
+    c r r %105
+    r8 f,16[ g] a8[ f a h]
+    c4 c, c'~
+    c a f'~
+    f e2
+    d2. %110
+    e4. d8 c4
+    d g,8[ a] h[ a16 h]
+    c2 cis4
+    d8[ a^\critnote d c] h4
+    c d2~ %115
+    d8[ c h a] gis4
+    a r r
+    R2.
+    c2^\critnote c4
+    d2. %120
+    e4 r r
+    R2.
+    a,2 a4
+    f'2 f4
+    g,2. %125
+    e'
+    f,2 f4
+    d'2.
+    e,
+    R %130
+    g2 g4
+    c2 c4
+    a2( c8[ d)]
+    e4 c8[ h a g]
+    f8.[ g16] a8[ f a h] %135
+    c4 c, e'~
+    e d8[ c h a]
+    h4 g r
+    R2.
+    r4 r g'~ %140
+    g f8[ e d c]
+    h4 g d'~
+    d8[ e c h] c4~
+    c h8[ a] h4
+    c g c %145
+    a d h
+    e c f~
+    f8[ e d f] e4
+    d d2
+    c4 r d %150
+    e r d
+    c r r\fermata \bar "|." %152 FINIS
+  }
+}
+
+DonaSopranoLyrics = \lyricmode {
+  Do -- na %80
+  no -- bis
+  pa -- cem,
+  pa --
+  cem, pa --
+  _ %85
+  _ cem,
+  pa -- _
+  _ _ _
+  _ _
+  _ _ %90
+  _
+  cem, pa -- _
+  _
+  _
+  _ %95
+  cem,
+
+  do -- na
+  no -- bis
+  pa -- cem, %100
+  pa --
+  cem, pa --
+  _
+  _ cem, pa --
+  cem, %105
+  pa -- _
+  _ cem, pa --
+  _ _
+  _
+  _ %110
+  _ _ _
+  cem, pa -- _
+  _ _
+  _ _
+  _ _ %115
+  _
+  cem,
+
+  do -- na
+  no -- %120
+  bis,
+
+  do -- na
+  no -- bis
+  pa -- %125
+  cem,
+  no -- bis
+  pa --
+  cem,
+  %130
+  do -- na
+  no -- bis
+  pa --
+  cem, pa --
+  _ _ %135
+  _ cem, pa --
+  _
+  _ cem,
+
+  pa -- %140
+  _
+  _ cem, pa --
+  _
+  _ _
+  cem, do -- na %145
+  no -- bis pa --
+  cem, pa -- _
+  _
+  cem, pa --
+  cem, pa -- %150
+  cem, pa --
+  cem. %152 FINIS
+}

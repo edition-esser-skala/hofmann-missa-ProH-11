@@ -348,3 +348,85 @@ SanctusOboeI = {
     g1\fermata \bar "|." %18 finis
   }
 }
+
+DonaOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoDona
+      \set Score.currentBarNumber = #61
+    R2.*19 %79
+    \mvTr g'2\fE-\critnote g4 %80
+    c2 c4
+    h2 g4
+    e'2.
+    d4 r g~
+    g fis8 e d c %85
+    h4 g r
+    r8 c16 d e8 c e fis
+    g4 g,4. a16 h
+    c2 cis4
+    d8 a d c h4 %90
+    a2.
+    g8 g16 a h8 g h d
+    e2.
+    d
+    c %95
+    h4 r r
+    R2.
+    g2 g4
+    c2 c4
+    h2 g4 %100
+    e'2.
+    d4 r g~
+    g fis8 e d c
+    h4 g h
+    c r r %105
+    r8 f,16 g a8 f a h
+    c4 r c~
+    c a \once \tieDashed f'~
+    f e2
+    d2. %110
+    e4. d8 c4
+    d g,8 a h a16 h
+    c2 cis4
+    d8 a d c h4
+    c d2~ %115
+    d8 c h a gis4
+    a r r
+    R2.
+    c2 c4
+    d2. %120
+    e4 r r
+    R2.
+    a,2 a4
+    f'2 f4
+    g,2. %125
+    e'
+    f,2 f4
+    d'2.
+    e,-\critnote
+    R %130
+    g2 g4
+    c2 c4
+    a2 c8 d
+    e4 c8 h a g
+    f8. g16 a8 f a h %135
+    c4 r e~
+    e d8 c h a
+    h4 g r
+    R2.
+    r4 r g'~ %140
+    g f8 e d c
+    h4 g d'~
+    d8 e c h c4~
+    c h8 a h4
+    c g c %145
+    a d h
+    e c f~
+    f8 e d f e4
+    d d2
+    c4 r d %150
+    e r d
+    c r r\fermata \bar "|." %152 FINIS
+  }
+}

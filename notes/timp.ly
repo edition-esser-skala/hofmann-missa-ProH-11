@@ -261,3 +261,65 @@ BenedictusTimpani = {
     c1\fermata \bar "|." %46 finis
   }
 }
+
+DonaTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoDona
+    \set Score.currentBarNumber = #61
+    R2.*13 %73
+    c4\fE r r
+    R2. %75
+    c4 r r
+    R2.
+    g4 r r
+    r g g8. g16
+    c4 r r %80
+    R2.
+    g4 r r
+    R2.*3 %85
+    g4 r r
+    c2 c8. c16
+    g4 r r
+    R2.*3 %91
+    g4 r r
+    c r r
+    R2.*2 %95
+    g4 r r
+    R2.
+    g4 r r
+    c2 c8. c16
+    g4 r r %100
+    R2.*3
+    g4 g8 g16 g g8 g
+    c4 r r %105
+    R2.
+    c4 r r
+    R2.
+    g4 c c8. c16
+    g4 r r %110
+    R2.
+    g4 r r
+    R2.*18 %130
+    g4 g8 g g g
+    c2 r4
+    R2.
+    c4 r r
+    R2. %135
+    c4 r r
+    R2.*2
+    r4 g g8 g
+    c4 r r %140
+    R2.
+    g2 g8. g16
+    g2 g8. g16
+    g2 g8. g16
+    c4 r r %145
+    R2.*2
+    r4 g c
+    r g g8. g16
+    c4 r g8. g16 %150
+    c4 r g8. g16
+    c4 r r\fermata \bar "|." %152 FINIS
+  }
+}
