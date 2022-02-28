@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "ob 1")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,8 +12,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \KyrieOrgano
+          \set Staff.instrumentName = "Oboe I"
+          \KyrieOboeI
         }
       >>
     }
@@ -21,19 +21,20 @@
   \bookpart {
     \section "2" "Gloria"
     \addTocEntry
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \GloriaOrgano }
+        \new Staff { \GloriaOboeI }
       >>
     }
   }
   \bookpart {
     \subsection "Qui tollis"
     \addTocEntry
-    \paper { systems-per-page = #6 }
+    \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \QuiTollisOrgano }
+        \new Staff { \QuiTollisOboeI }
       >>
     }
   }
@@ -42,26 +43,27 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \QuoniamOrgano }
+        \new Staff { \QuoniamOboeI }
       >>
     }
   }
   \bookpart {
     \section "3" "Credo"
     \addTocEntry
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \CredoOrgano }
+        \new Staff { \CredoOboeI }
       >>
     }
   }
   \bookpart {
     \subsection "Et incarnatus est"
     \addTocEntry
-    \paper { systems-per-page = #4 }
+    \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \EtIncarnatusOrgano }
+        \new Staff { \EtIncarnatusOboeI }
       >>
     }
   }
@@ -70,35 +72,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \EtResurrexitOrgano }
+        \new Staff { \EtResurrexitOboeI }
       >>
     }
   }
   \bookpart {
     \section "4" "Sanctus"
     \addTocEntry
-    \paper { systems-per-page = #5 }
+    \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \SanctusOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \section "5" "Benedictus"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \BenedictusOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \section "6" "Agnus Dei"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \AgnusOrgano }
+        \new Staff { \SanctusOboeI }
       >>
     }
   }
@@ -107,7 +91,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \DonaOrgano }
+        \new Staff { \DonaOboeI }
       >>
     }
   }

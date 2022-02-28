@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,8 +12,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \KyrieViolinoI
+          \set Staff.instrumentName = "Violino II"
+          \KyrieViolinoII
         }
       >>
     }
@@ -28,7 +28,7 @@
     }
     \score {
       <<
-        \new Staff { \GloriaViolinoI }
+        \new Staff { \GloriaViolinoII }
       >>
       \layout { \context { \Score \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) } }
     }
@@ -39,7 +39,7 @@
     \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \QuiTollisViolinoI }
+        \new Staff { \QuiTollisViolinoII }
       >>
     }
   }
@@ -48,7 +48,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \QuoniamViolinoI }
+        \new Staff { \QuoniamViolinoII }
       >>
     }
   }
@@ -57,7 +57,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CredoViolinoI }
+        \new Staff { \CredoViolinoII }
       >>
       \layout { \context { \Score \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) } }
     }
@@ -68,7 +68,7 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \EtIncarnatusViolinoI }
+        \new Staff { \EtIncarnatusViolinoII }
       >>
     }
   }
@@ -77,7 +77,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \EtResurrexitViolinoI }
+        \new Staff { \EtResurrexitViolinoII }
       >>
     }
   }
@@ -87,7 +87,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \SanctusViolinoI }
+        \new Staff { \SanctusViolinoII }
       >>
     }
   }
@@ -96,19 +96,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BenedictusViolinoI }
-      >>
-    }
-  }
-  \bookpart {
-    \section "5" "Benedictus"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "vl" "solo" }
-          \BenedictusViolinoSolo
-        }
+        \new Staff { \BenedictusViolinoII }
       >>
     }
   }
@@ -118,8 +106,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "vl 1" \critnote }
-          \BenedictusViolinoIOssia
+          \set Staff.instrumentName = \markup \center-column { "vl 2" \critnote }
+          \BenedictusViolinoIIOssia
         }
       >>
     }
@@ -129,7 +117,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \AgnusViolinoI }
+        \new Staff { \AgnusViolinoII }
       >>
     }
   }
@@ -139,8 +127,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "vl 1" \critnote }
-          \BenedictusViolinoIOssia
+          \set Staff.instrumentName = \markup \center-column { "vl 2" \critnote }
+          \BenedictusViolinoIIOssia
         }
       >>
     }
@@ -150,7 +138,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \DonaViolinoI }
+        \new Staff { \DonaViolinoII }
       >>
     }
   }
