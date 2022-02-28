@@ -55,8 +55,22 @@ KyrieOboeI = {
     a4 r8 a h a
     gis a a4 gis
     a r r
-    R2.*11 %74
-    s2.*18 \bar "|." %82 finis
+    R2.*11 %64
+    c4.\fE e8 g h, %65
+    c4. e16 f g8 h,
+    c4. e8 d c
+    h8. a16 g8 d' e d
+    c4 r8 a d c16 d
+    h4 r8 g c h16 c %70
+    a4 r8 a f'4
+    e8 e d2
+    c4 r r
+    R2.*4 %77
+    c4.\fE e8 g h,
+    c4. e16 f g8 h,
+    e e e4 d %80
+    e r8 c d4
+    e r r\fermata \bar "|." %82 finis
   }
 }
 
@@ -64,7 +78,36 @@ GloriaOboeI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoGloria
-    s1*30 \bar "||" %30 finis
+    c''8.\fE c16 c4 e,8 e16 e e8 d
+    e4 e e8 e f e16 d
+    e4 e c' h
+    a g f r
+    h, r8 h c8. c16 c4 %5
+    f r8 e e8. d16 d4
+    c2\p c
+    b4. b8 a4 a
+    d2 d
+    c4. c8 h!4 h %10
+    f'8.\fE f16 e8 f e4 d
+    c r r2
+    r16. f32 f8\trillE r16. e32 e16. g32 \tuplet 3/2 8 { a16 g f e[ d c] } d4\trill
+    c8. g16 g4 a a8 a
+    a4 g f4. f8 %15
+    e f g4. a16 g f8 e
+    e4 d g g8 g
+    g4 fis c'4. c8
+    c4 h e4. e8
+    d4 d8 c h4 a8. a16 %20
+    g4 r d' d8 d
+    d4 d d8 d d d
+    d8. c16 c4 b2
+    a a4 gis
+    a e'8 e16 e f8 f f f %25
+    e e e e16 e e8 d h h16 h
+    f'4 e d8 d16 d d4
+    c r r2
+    r16. f32 f8\trill r16. e32 e16. g32 \tuplet 3/2 8 { a16[ g f] e d c } d4\trill
+    e8 c4 h8 c4 r\fermata \bar "||"
   }
 }
 
@@ -415,7 +458,7 @@ DonaOboeI = {
     e d8 c h a
     h4 g r
     R2.
-    r4 r g'~ %140
+    r4 r \once \tieDashed g'~ %140
     g f8 e d c
     h4 g d'~
     d8 e c h c4~
