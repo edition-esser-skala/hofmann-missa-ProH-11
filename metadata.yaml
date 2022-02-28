@@ -14,6 +14,9 @@ sources:
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/557.html
     license: public domain
     principal: true
-imslp:
+    notes: second and last page of ob 1 missing in digital version
+imslp: Missa_solemnis_ProH_11_(Hofmann,_Leopold)
 parts:
+  vl1: Violino I\\Violino solo
+  vla_solo: Viola solo
   ottoni: Clarino I, II in C\\Timpani in C–G
